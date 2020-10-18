@@ -4,15 +4,15 @@ import Grid from '@material-ui/core/grid';
 import {AppBar, Typography, Container, } from "@material-ui/core";
 
 const workshop1 = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/workshop.JPG?alt=media&token=9a27be53-bf12-4bb4-b2c7-5f10b53d70b0";
-const hackathon = "http://itfest.osut.ro/media/events/hackathon.png";
-const algoritmica = "http://itfest.osut.ro/media/events/algo.png";
-const ctf = "http://itfest.osut.ro/media/events/ctf_small.png";
-const rocket_league = "http://itfest.osut.ro/media/events/rocket_league_small.png";
-const hearthstone = "http://itfest.osut.ro/media/events/HS_small.png";
-const lol = "http://itfest.osut.ro/media/events/LOL_small.png";
-const board_games = "http://itfest.osut.ro/media/events/boardsgames_small.png";
-const csgo = "http://itfest.osut.ro/media/events/CSGO_small.png";
-const iconical = "http://itfest.osut.ro/media/events/iconical_small.png"
+const hackathon = "https://itfest.osut.ro/media/events/hackathon.png";
+const algoritmica = "https://itfest.osut.ro/media/events/algo.png";
+const ctf = "https://itfest.osut.ro/media/events/ctf_small.png";
+const rocket_league = "https://itfest.osut.ro/media/events/rocket_league_small.png";
+const hearthstone = "https://itfest.osut.ro/media/events/HS_small.png";
+const lol = "https://itfest.osut.ro/media/events/LOL_small.png";
+const board_games = "https://itfest.osut.ro/media/events/boardsgames_small.png";
+const csgo = "https://itfest.osut.ro/media/events/CSGO_small.png";
+const iconical = "https://itfest.osut.ro/media/events/iconical_small.png"
 
 
 const Evenimente = () => {
@@ -71,32 +71,32 @@ const Evenimente = () => {
                 <Eveniment
                     titlu="Webinar cu Radu Popescu"
                     descriere="Sfaturi pentru o cariera in IT."
-                    data="Vineri, 2 Noiembrie"
+                    data="Luni, 2 Noiembrie"
                     poza={workshop1}
                     ora="02:33PM"
                     formular="#"/>
                 <Eveniment
                     titlu="Webinar cu Ramon Năstase"
                     descriere="Cum sa obții un job în IT în 12 luni fără nicio experiență anterioară."
-                    data="02.11.2020"
+                    data="Marți, 3 Noiembrie"
                     poza={workshop1}
                     formular="#"/>
                 <Eveniment
                     titlu="Webinar cu Cristian Dascălu"
                     descriere="Despre bani în freelancing."
-                    data="02.11.2020"
+                    data="Miercuri, 4 Noiembrie"
                     poza={workshop1}
                     formular="#"/>
                 <Eveniment
                     titlu="Webinar Te Fac Programator"
                     descriere=""
-                    data="02.11.2020"
+                    data="Marți, 10 Noiembrie"
                     poza={workshop1}
                     formular="#"/>
                 <Eveniment
                     titlu="Webinar Amber"
                     descriere=""
-                    data="02.11.2020"
+                    data="Miercuri, 11 Noiembrie"
                     poza={workshop1}
                     formular="#"/>
             </Grid>

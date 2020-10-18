@@ -106,7 +106,7 @@ theme = responsiveFontSizes(theme);
       variant="h3"
       component="h1"
       gutterbottom
-      style={{marginTop:30,marginBottom:15}}
+      style={{marginBottom:15,paddingTop:60}}
       id="despre"
       >
         Despre ITFest
@@ -115,7 +115,20 @@ theme = responsiveFontSizes(theme);
       color="textSecondary"
       variant="body1"
       component="p">
-        ITFest este un proiect dedicat tinerilor pasionați de IT. Proiectul își propune, în primul rând, crearea unui spațiu eficient de învățare și transfer de cunoștințe printr-o serie de activități ce includ workshopuri și competiții dedicate tinerilor pasionați de IT. ITFest propune, de asemenea, și evenimente orientate către socializare: LAN Party-uri pentru gameri, precum și concursul iCONical pentru iubitorii de cosplay.
+        ITFest Timișoara este unul dintre proiectele de succes ale Organizației 
+        Studenților din Universitatea de Vest din Timișoara (OSUT), adresându-se în 
+        special pasionaților de tehnologii din IT și jocuri în rețea. 
+        <br /><br />
+        {/* <Button color="primary" variant="contained">înscrie-te <ArrowRightAltIcon /></Button> */}
+      </Typography>
+      <Typography
+      color="textSecondary"
+      variant="body1"
+      component="p">
+        Anul acesta cea de-a XV-a ediţie se desfășoară în regim online și offline în perioada 2 - 15 noiembrie. 
+        Echipa ITFest pregătește atât conferințe și workshopuri pe subiectele de tendință ale comunității IT, 
+        cât și concursuri și LAN Party-uri cu premii pe măsură. Mai mult decât atât, se organizează și un concurs 
+        de cosplay pentru fanii producțiilor animate. 
         <br /><br />
         {/* <Button color="primary" variant="contained">înscrie-te <ArrowRightAltIcon /></Button> */}
       </Typography>
@@ -139,10 +152,11 @@ theme = responsiveFontSizes(theme);
               color="textPrimary"
               variant="h3"
               component="h1"
-              id="contact"
+              id="parteneri"
               style={{
-              marginTop: 30,
+              marginTop: 15,
               marginBottom:30,
+              paddingTop: 60,
               textAlign:"center"
           }}>
               Parteneri 
@@ -150,27 +164,27 @@ theme = responsiveFontSizes(theme);
           </Grid>
             <Grid item xs={6} md={2} >
             <a href="https://www.anosr.ro/" style={{marginBottom: "15px"}}>
-              <img src="http://itfest.osut.ro/media/Parteneri/Black_ANOSR.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+              <img src="https://itfest.osut.ro/media/Parteneri/Black_ANOSR.png" style={{height:"80px",margin:"auto",display:"block"}} alt="anosr" />
             </a>
             </Grid>
             <Grid item xs={6} md={2} style={{marginBottom: "15px"}}>
             <a href="https://loolish.ro/">
-              <img src="http://itfest.osut.ro/media/Parteneri/loolish-85x85-blue.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+              <img src="https://itfest.osut.ro/media/Parteneri/loolish-85x85-blue.png" style={{height:"80px",margin:"auto",display:"block"}} alt="loolish" />
             </a>
             </Grid>
             <Grid item xs={6} md={2}>
               <a href="https://mypctm.ro/" style={{marginTop: "15px"}}>
-                <img src="http://itfest.osut.ro/media/Parteneri/logo-mypctm.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+                <img src="https://itfest.osut.ro/media/Parteneri/logo-mypctm.png" style={{height:"80px",margin:"auto",display:"block"}} alt="mypctm" />
               </a>
             </Grid>
             <Grid item xs={6} md={2} >
-              <img src="http://itfest.osut.ro/media/Parteneri/Black_uvt.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+              <img src="https://itfest.osut.ro/media/Parteneri/Black_uvt.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
             </Grid>
           </Grid>
           <Grid>
           <Grid item xs={12} style={{marginTop: 30}} className="parteneri">
               <a href="http://www.cjtimis.ro/">
-                <img src="http://itfest.osut.ro/media/Parteneri/Black_CJT.png" style={{height:"120px",margin:"auto",display:"block"}} alt="uvt" />
+                <img src="https://itfest.osut.ro/media/Parteneri/Black_CJT.png" style={{height:"120px",margin:"auto",display:"block"}} alt="CJTimiș" />
               </a>
             </Grid>
           </Grid>

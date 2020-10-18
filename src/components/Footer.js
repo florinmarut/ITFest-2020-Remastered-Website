@@ -18,9 +18,10 @@ const Footer = () => {
                 direction="row"
                 justify="flex-start"
                 alignItems="flex-start"
-                alignContent="center">
+                alignContent="center"
+                id="contact">
                 <Grid item xs={12} md={6} lg={4}>
-                    <img src="http://itfest.osut.ro/media/it_fest_logo_sized.png"    
+                    <img src="https://itfest.osut.ro/media/it_fest_logo_sized.png"    
                         style={{width:"100%",maxWidth:"160px",display:"block"}}/>
                     <br/>
                     <Typography
@@ -28,19 +29,19 @@ const Footer = () => {
                         variant="body1"
                         component="h1"
                         >
-                        <img src="http://itfest.osut.ro/media/icon_call.png" alt="Tel:"/> (+40) 256-592-181
+                        <img src="https://itfest.osut.ro/media/icon_call.png" alt="Tel:"/> (+40) 256-592-181
                     </Typography>
                     <Typography
                         color="textLight"
                         variant="body1"
                         component="h1"
                         >
-                        <img src="http://itfest.osut.ro/media/icon_email.png" alt="Email:"/> itfest@osut.ro
+                        <img src="https://itfest.osut.ro/media/icon_email.png" alt="Email:"/> itfest@osut.ro
                     </Typography>
                 </Grid>
 
                 <Grid item xs={12} md={6} lg={4}>
-                    <img src="http://itfest.osut.ro/media/logo_osut_sized.png" 
+                    <img src="https://itfest.osut.ro/media/logo_osut_sized.png" 
                         style={{width:"100%",maxWidth:"160px",display:"block"}}/>
                     <br/>
                     <Typography
@@ -51,14 +52,14 @@ const Footer = () => {
                             padding: 0
                         }}
                         >
-                        <img src="http://itfest.osut.ro/media/icon_call.png" alt="Tel:"/> (+40) 256-592-181
+                        <img src="https://itfest.osut.ro/media/icon_call.png" alt="Tel:"/> (+40) 256-592-181
                     </Typography>
                     <Typography
                         color="textLight"
                         variant="body1"
                         component="h1"
                         >
-                        <img src="http://itfest.osut.ro/media/icon_email.png" alt="Email:"/> office@osut.ro
+                        <img src="https://itfest.osut.ro/media/icon_email.png" alt="Email:"/> office@osut.ro
                     </Typography>
                 </Grid>
 

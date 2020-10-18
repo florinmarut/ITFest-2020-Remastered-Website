@@ -3,17 +3,17 @@ import MembruEchipa from './MembruEchipa';
 import Grid from '@material-ui/core/grid';
 import {AppBar, Typography, Container} from "@material-ui/core";
 
-const adela = "http://itfest.osut.ro/media/team/adela.png";
-const breha = "http://itfest.osut.ro/media/team/breha.png";
-const delia = "http://itfest.osut.ro/media/team/delia.png";
-const gabe = "http://itfest.osut.ro/media/team/gabe.png";
-const stefan = "http://itfest.osut.ro/media/team/stefan.png";
-const voda = "http://itfest.osut.ro/media/team/voda.png"
-const sergiu = "http://itfest.osut.ro/media/team/sergiu.png";
-const patricia = "http://itfest.osut.ro/media/team/patricia.png";
-const paul = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/paul.jpg?alt=media&token=0f73ccec-dbe2-4432-a7b3-d17dbf358b2a";
-const neli = "http://itfest.osut.ro/media/team/neli.png";
-const teo = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/team%2Fteo.png?alt=media&token=6da5a071-91af-49d4-ad2a-430a3abc9cfd";
+const adela = "https://itfest.osut.ro/media/team/adela.png";
+const breha = "https://itfest.osut.ro/media/team/breha.png";
+const delia = "https://itfest.osut.ro/media/team/delia.png";
+const gabe = "https://itfest.osut.ro/media/team/gabe.png";
+const stefan = "https://itfest.osut.ro/media/team/stefan.png";
+const voda = "https://itfest.osut.ro/media/team/voda.png"
+const sergiu = "https://itfest.osut.ro/media/team/sergiu.png";
+const patricia = "https://itfest.osut.ro/media/team/patricia.png";
+const neli = "https://itfest.osut.ro/media/team/neli.png";
+const teo = "https://itfest.osut.ro/media/team/patricia.png";
+const borbi = "https://itfest.osut.ro/media/team/borbi.png"
 
 const Echipa = () => {
     return (
@@ -99,11 +99,11 @@ const Echipa = () => {
                     titlu="Paul Borbiro"
                     descriere="Responsabil LAN Party"
                     mail="paul.borbiro99@e-uvt.ro"
-                    poza={paul}
+                    poza={borbi}
                     />
                 <MembruEchipa echipa
                     titlu="Patricia Văleanu"
-                    descriere="Vicepreședinte Intern OSUT"
+                    descriere="Vicepreședinte Organizare Internă și Proiecte OSUT"
                     mail="patricia.valeanu@osut.ro"
                     poza={patricia}
                     />

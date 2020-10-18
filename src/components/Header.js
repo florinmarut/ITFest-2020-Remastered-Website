@@ -108,8 +108,9 @@ const Header = ({mode,changeMode}) => {
       <Typography variant="h6" className={classes.title} color="primary">          <Tooltip title={"Prima pagina"} placement="bottom">
 
       <Link to="/" style={{textDecoration:"none"}}> 
-
-ITFEST      
+ 
+        <img src="https://itfest.osut.ro/media/it_fest_logo_sized_color.png" alt="itfest"
+        style={{height: 18}}/> 
 
       </Link></Tooltip>
       </Typography>
@@ -124,7 +125,7 @@ ITFEST
         <a href="#evenimente"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Evenimente</Button></a>
         {/* <FormControl className={classes.formControl}>
             <Select
-              style={{ width: "100%", zIndex: 291919200, }}
+              style={{ width: "100%", position: "absolute", zIndex: 291919200, }}
               value={eveniment}
               onChange={handleChange}
               displayEmpty
@@ -143,6 +144,9 @@ ITFEST
       </Link>
       <Link activeClassName="selected" to="/blog" className={classes.link}> 
         <a href="#echipa"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Echipa</Button></a>
+      </Link>
+      <Link activeClassName="selected" to="/" className={classes.link}> 
+        <a href="#parteneri"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Parteneri</Button></a>
       </Link>
       <Link activeClassName="selected" to="/informatii-studenti" className={classes.link}> 
         <a href="#contact"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Contact</Button></a>
@@ -196,6 +200,7 @@ ITFEST
         </FormControl>
   </li> */}
   <li className="link_meniu"><a href="#echipa" onClick={handleClose}>ECHIPA</a></li>
+  <li className="link_meniu"><a href="#parteneri" onClick={handleClose}>PARTENERI</a></li>
   <li className="link_meniu"><a href="#contact" onClick={handleClose}>CONTACT</a></li>
 </ul>
 </>
