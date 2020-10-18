@@ -58,7 +58,7 @@ const Footer = () => {
                         variant="body1"
                         component="h1"
                         >
-                        <img src="http://itfest.osut.ro/media/icon_email.png" alt="Email:"/> Email: office@osut.ro
+                        <img src="http://itfest.osut.ro/media/icon_email.png" alt="Email:"/> office@osut.ro
                     </Typography>
                 </Grid>
 

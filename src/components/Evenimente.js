@@ -6,7 +6,7 @@ import {AppBar, Typography, Container, } from "@material-ui/core";
 const workshop1 = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/workshop.JPG?alt=media&token=9a27be53-bf12-4bb4-b2c7-5f10b53d70b0";
 const hackathon = "http://itfest.osut.ro/media/events/hackathon.png";
 const algoritmica = "http://itfest.osut.ro/media/events/algo.png";
-const ctf = "http://itfest.osut.ro/media/events/algo.png";
+const ctf = "http://itfest.osut.ro/media/events/ctf_small.png";
 const rocket_league = "http://itfest.osut.ro/media/events/rocket_league_small.png";
 const hearthstone = "http://itfest.osut.ro/media/events/HS_small.png";
 const lol = "http://itfest.osut.ro/media/events/LOL_small.png";
@@ -76,13 +76,13 @@ const Evenimente = () => {
                     ora="02:33PM"
                     formular="#"/>
                 <Eveniment
-                    titlu="Webinar Ramon Năstase"
+                    titlu="Webinar cu Ramon Năstase"
                     descriere="Cum sa obții un job în IT în 12 luni fără nicio experiență anterioară."
                     data="02.11.2020"
                     poza={workshop1}
                     formular="#"/>
                 <Eveniment
-                    titlu="Webinar Cristian Dascalu"
+                    titlu="Webinar cu Cristian Dascălu"
                     descriere="Despre bani în freelancing."
                     data="02.11.2020"
                     poza={workshop1}
@@ -145,7 +145,7 @@ const Evenimente = () => {
                     formular="#"/>
                 <Eveniment
                     titlu="Capture the flag"
-                    descriere="Concursul constă în exploatarea unui anumit site pentru a găsi vulnerabilități atât în front/backend-ul acestuia, cât și în baza sa de date."
+                    descriere="Acest concurs constă in exploatarea unui sistem informatic vulnerabil(program, website, rețea) in scopul obținerii unui 'flag'(cod/fisier)."
                     data="Duminică, 15 Noiembrie"
                     poza={ctf}
                     formular="#"/>

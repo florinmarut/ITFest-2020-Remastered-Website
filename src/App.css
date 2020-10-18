@@ -403,11 +403,10 @@ body, html {
   text-decoration: none;
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;
-  color: #c00;
 }
 
 .om_echipa a:hover {
-  border-color: #c00;
+  border-color: #037a96;
 }
 
 #footer {

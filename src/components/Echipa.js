@@ -9,9 +9,10 @@ const delia = "http://itfest.osut.ro/media/team/delia.png";
 const gabe = "http://itfest.osut.ro/media/team/gabe.png";
 const stefan = "http://itfest.osut.ro/media/team/stefan.png";
 const voda = "http://itfest.osut.ro/media/team/voda.png"
-const sergiu = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/sergiu.jpg?alt=media&token=a46909cf-fe80-4460-b6e2-dc2736bbb2ca";
+const sergiu = "http://itfest.osut.ro/media/team/sergiu.png";
+const patricia = "http://itfest.osut.ro/media/team/patricia.png";
 const paul = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/paul.jpg?alt=media&token=0f73ccec-dbe2-4432-a7b3-d17dbf358b2a";
-const neli = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/neli.jpg?alt=media&token=d12c5a32-e499-4a45-9829-9a50e50905d5";
+const neli = "http://itfest.osut.ro/media/team/neli.png";
 const teo = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/team%2Fteo.png?alt=media&token=6da5a071-91af-49d4-ad2a-430a3abc9cfd";
 
 const Echipa = () => {
@@ -99,6 +100,12 @@ const Echipa = () => {
                     descriere="Responsabil LAN Party"
                     mail="paul.borbiro99@e-uvt.ro"
                     poza={paul}
+                    />
+                <MembruEchipa echipa
+                    titlu="Patricia Văleanu"
+                    descriere="Vicepreședinte Intern OSUT"
+                    mail="patricia.valeanu@osut.ro"
+                    poza={patricia}
                     />
                 <MembruEchipa echipa
                     titlu="Adrian-Alexandru Breha"

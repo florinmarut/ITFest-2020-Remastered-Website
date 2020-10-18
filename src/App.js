@@ -148,22 +148,30 @@ theme = responsiveFontSizes(theme);
               Parteneri 
           </Typography>
           </Grid>
-            <Grid item xs={6} md={2}>
-              <img src="http://itfest.osut.ro/media/Parteneri/anosr_small.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
+            <Grid item xs={6} md={2} >
+            <a href="https://www.anosr.ro/" style={{marginBottom: "15px"}}>
+              <img src="http://itfest.osut.ro/media/Parteneri/Black_ANOSR.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+            </a>
+            </Grid>
+            <Grid item xs={6} md={2} style={{marginBottom: "15px"}}>
+            <a href="https://loolish.ro/">
+              <img src="http://itfest.osut.ro/media/Parteneri/loolish-85x85-blue.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+            </a>
             </Grid>
             <Grid item xs={6} md={2}>
-              <img src="http://itfest.osut.ro/media/Parteneri/loolish-85x85-blue.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
+              <a href="https://mypctm.ro/" style={{marginTop: "15px"}}>
+                <img src="http://itfest.osut.ro/media/Parteneri/logo-mypctm.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+              </a>
             </Grid>
-            <Grid item xs={6} md={2}>
-              <img src="http://itfest.osut.ro/media/Parteneri/my_pc_small.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
-            </Grid>
-            <Grid item xs={6} md={2}>
-              <img src="http://itfest.osut.ro/media/Parteneri/uvt_mic.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
+            <Grid item xs={6} md={2} >
+              <img src="http://itfest.osut.ro/media/Parteneri/Black_uvt.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
             </Grid>
           </Grid>
           <Grid>
-          <Grid item xs={12} style={{marginTop: 30}}>
-              <img src="http://itfest.osut.ro/media/Parteneri/cjt_mic.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
+          <Grid item xs={12} style={{marginTop: 30}} className="parteneri">
+              <a href="http://www.cjtimis.ro/">
+                <img src="http://itfest.osut.ro/media/Parteneri/Black_CJT.png" style={{height:"120px",margin:"auto",display:"block"}} alt="uvt" />
+              </a>
             </Grid>
           </Grid>
           </Container>

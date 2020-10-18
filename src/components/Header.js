@@ -121,8 +121,8 @@ ITFEST
         <a href="#despre"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Despre</Button></a>
       </Link>
       <Link activeClassName="selected" to="/despre-osut" className={classes.link}> 
-        {/* <a href="#evenimente"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Evenimente</Button></a> */}
-        <FormControl className={classes.formControl}>
+        <a href="#evenimente"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Evenimente</Button></a>
+        {/* <FormControl className={classes.formControl}>
             <Select
               style={{ width: "100%", zIndex: 291919200, }}
               value={eveniment}
@@ -139,8 +139,7 @@ ITFEST
                 Evenimente
               </MenuItem>
           </Select>
-        </FormControl>
-
+        </FormControl> */}
       </Link>
       <Link activeClassName="selected" to="/blog" className={classes.link}> 
         <a href="#echipa"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Echipa</Button></a>
@@ -175,8 +174,8 @@ ITFEST
 <>
 <ul id="meniu">
   <li className="link_meniu"><a href="#despre" onClick={handleClose}>DESPRE</a></li>
-  {/* <li className="link_meniu"><a href="#evenimente" onClick={handleClose}>EVENIMENTE</a></li> */}
-  <li className="link_meniu">
+  <li className="link_meniu"><a href="#evenimente" onClick={handleClose}>EVENIMENTE</a></li>
+  {/* <li className="link_meniu">
     <FormControl className={classes.formControl}>
             <Select
               style={{ width: "100%", zIndex: 291919200, }}
@@ -195,7 +194,7 @@ ITFEST
               </MenuItem>
           </Select>
         </FormControl>
-  </li>
+  </li> */}
   <li className="link_meniu"><a href="#echipa" onClick={handleClose}>ECHIPA</a></li>
   <li className="link_meniu"><a href="#contact" onClick={handleClose}>CONTACT</a></li>
 </ul>
