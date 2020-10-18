@@ -109,7 +109,7 @@ theme = responsiveFontSizes(theme);
       style={{marginBottom:15,paddingTop:60}}
       id="despre"
       >
-        Despre ITFest
+        Despre ITFest Timișoara
       </Typography>
       <Typography
       color="textSecondary"
