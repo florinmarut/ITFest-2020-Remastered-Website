@@ -113,17 +113,17 @@ ITFEST
      
 
       <Link activeClassName="selected" to="/blog" className={classes.link}> 
-        <Button color="default">Despre</Button>
+        <Button color="default" style={{marginLeft: 10, marginRight: 10}}>Despre</Button>
       </Link>
       <Link activeClassName="selected" to="/despre-osut" className={classes.link}> 
-        <Button color="default">Evenimente</Button>
+        <Button color="default" style={{marginLeft: 10, marginRight: 10}}>Evenimente</Button>
       </Link>
       <Link activeClassName="selected" to="/blog" className={classes.link}> 
-        <Button color="default">Echipa</Button>
+        <Button color="default" style={{marginLeft: 10, marginRight: 10}}>Echipa</Button>
       </Link>
      
       <Link activeClassName="selected" to="/informatii-studenti" className={classes.link}> 
-        <Button color="default">Contact</Button>
+        <Button color="default" style={{marginLeft: 10, marginRight: 10}}>Contact</Button>
       </Link>
      
 

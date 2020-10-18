@@ -4,6 +4,16 @@ import Grid from '@material-ui/core/grid';
 import {AppBar, Typography, Container} from "@material-ui/core";
 
 const workshop1 = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/workshop.JPG?alt=media&token=9a27be53-bf12-4bb4-b2c7-5f10b53d70b0";
+const hackathon = "http://itfest.osut.ro/media/events/hackathon.png";
+const algoritmica = "http://itfest.osut.ro/media/events/algo.png";
+const ctf = "http://itfest.osut.ro/media/events/algo.png";
+const rocket_league = "http://itfest.osut.ro/media/events/rocket_league_small.png";
+const hearthstone = "http://itfest.osut.ro/media/events/HS_small.png";
+const lol = "http://itfest.osut.ro/media/events/LOL_small.png";
+const board_games = "http://itfest.osut.ro/media/events/boardsgames_small.png";
+const csgo = "http://itfest.osut.ro/media/events/CSGO_small.png";
+const iconical = "http://itfest.osut.ro/media/events/iconical_small.png"
+
 
 const Evenimente = () => {
     return (
@@ -125,19 +135,19 @@ const Evenimente = () => {
                     titlu="Hackathon"
                     descriere="Hackathonul organizat de noi este un concurs de programare cu o durată de 24 de ore pe o temă stabilită de sponsorul competiției. Participanții formează echipe și aplică toate cunoștințele dobândite anterior, urmând a fi premiat cel mai inovativ produs și creatorii ei."
                     data="Sâmbătă, 14 Noiembrie"
-                    poza={workshop1}
+                    poza={hackathon}
                     formular="#"/>
                 <Eveniment
                     titlu="Concurs de algoritmică"
                     descriere="Acest concurs este o competiție desemnată elevilor din liceu, ce îșî propune să testeze și să recompenseze agilitatea și inventivitatea de a aplica diferiți algoritmi în probleme de actualitate."
                     data="Vineri, 13 Noiembrie"
-                    poza={workshop1}
+                    poza={algoritmica}
                     formular="#"/>
                 <Eveniment
                     titlu="Capture the flag"
                     descriere="Concursul constă în exploatarea unui anumit site pentru a găsi vulnerabilități atât în front/backend-ul acestuia, cât și în baza sa de date."
                     data="Duminică, 15 Noiembrie"
-                    poza={workshop1}
+                    poza={ctf}
                     formular="#"/>
 
             </Grid>
@@ -176,31 +186,31 @@ const Evenimente = () => {
                     titlu="Rocket League"
                     descriere=""
                     data="Vineri, 6 Noiembrie"
-                    poza={workshop1}
+                    poza={rocket_league}
                     formular="#"/>
                     <Eveniment
                     titlu="Hearthstone"
                     descriere=""
                     data="Vineri, 6 Noiembrie"
-                    poza={workshop1}
+                    poza={hearthstone}
                     formular="#"/>
                     <Eveniment
                     titlu="League of Legends"
                     descriere=""
                     data="Sâmbătă, 7 Noiembrie"
-                    poza={workshop1}
+                    poza={lol}
                     formular="#"/>
                     <Eveniment
                     titlu="Board Games"
                     descriere=""
                     data="Sâmbătă, 7 Noiembrie"
-                    poza={workshop1}
+                    poza={board_games}
                     formular="#"/>
                     <Eveniment
                     titlu="CS:GO"
                     descriere=""
                     data="Duminică, 8 Noiembrie"
-                    poza={workshop1}
+                    poza={csgo}
                     formular="#"/>
 
                 </Grid>
@@ -237,9 +247,9 @@ const Evenimente = () => {
                 alignContent="center">
                     <Eveniment
                     titlu="iConical"
-                    descriere=""
+                    descriere="Una dintre cele mai recente secțiuni ale proiectului este chiar convenția numită iCONical. Evenimentul de tip Comic Con este printre singurele de acest tip din România. Atracția principală a convenției este un concurs de cosplay. Tineri de toate vârstele se costumează în personajul preferat din cărți, seriale, filme, jocuri sau alte creații ficționale, urmând a fi jurizați de trei cunoscători în domeniu."
                     data="Duminică, 15 Noiembrie"
-                    poza={workshop1}
+                    poza={iconical}
                     formular="#"/>
 
                 </Grid>

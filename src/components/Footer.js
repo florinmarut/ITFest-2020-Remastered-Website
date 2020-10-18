@@ -20,7 +20,7 @@ const Footer = () => {
                 alignItems="flex-start"
                 alignContent="center">
                 <Grid item xs={12} md={6} lg={4}>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/logos_cne.png?alt=media&token=d4216087-e665-4760-9516-dd67b3c195b2&fbclid=IwAR2hOVzcPkiSknD3gV799A0YOXFGFZaaMLZSt6FNV-PiOKjFPsnbeRrRvig" 
+                    <img src="http://itfest.osut.ro/media/it_fest_logo_sized.png" 
                     
                     style={{width:"100%",maxWidth:"160px",display:"block"}}/>
                     Tel: 0123131231231<br />
@@ -29,7 +29,7 @@ const Footer = () => {
                 </Grid>
                 <Grid item xs={12} md={6} lg={4}>
 
-                <img src="https://abc.osut.ro/img/logouri%202020/12-01.png?fbclid=IwAR05zlb_tFLtxO5ONaSywkCnliJUZekjwp9NjXr5x0CWzwMoNlRsycreSNY" 
+                <img src="http://itfest.osut.ro/media/logo_osut_sized.png" 
                     
                     style={{width:"100%",maxWidth:"160px",display:"block"}}/>
                     Tel: 0123131231231<br/>

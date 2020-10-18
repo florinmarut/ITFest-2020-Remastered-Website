@@ -3,12 +3,12 @@ import MembruEchipa from './MembruEchipa';
 import Grid from '@material-ui/core/grid';
 import {AppBar, Typography, Container} from "@material-ui/core";
 
-const adela = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/team%2Fadela.png?alt=media&token=4f5141ea-ddb6-4a52-be11-2a2fcd59d26a";
-const breha = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/team%2Fbreha.png?alt=media&token=378467de-4513-4b6a-a431-f8fb60341f08";
-const delia = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/team%2Fdelia.png?alt=media&token=4e7b0cbf-25ae-43aa-b183-8b66f18cdb06";
-const gabe = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/team%2Fgabe.png?alt=media&token=f0d4ca2f-737b-42fd-ae83-669da3d114c8";
-const stefan = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/team%2Fstefan.png?alt=media&token=4de6bb3c-5f11-4b1b-9b30-5b138695f4b0";
-const voda = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/team%2Fvoda.png?alt=media&token=77bf74bc-10c1-4a1c-92bb-b73b464d5231"
+const adela = "http://itfest.osut.ro/media/team/adela.png";
+const breha = "http://itfest.osut.ro/media/team/breha.png";
+const delia = "http://itfest.osut.ro/media/team/delia.png";
+const gabe = "http://itfest.osut.ro/media/team/gabe.png";
+const stefan = "http://itfest.osut.ro/media/team/stefan.png";
+const voda = "http://itfest.osut.ro/media/team/voda.png"
 const sergiu = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/sergiu.jpg?alt=media&token=a46909cf-fe80-4460-b6e2-dc2736bbb2ca";
 const paul = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/paul.jpg?alt=media&token=0f73ccec-dbe2-4432-a7b3-d17dbf358b2a";
 const neli = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/neli.jpg?alt=media&token=d12c5a32-e499-4a45-9829-9a50e50905d5";
@@ -49,7 +49,7 @@ const Echipa = () => {
                     descriere="Coordonator General"
                     mail="darian.voda00@e-uvt.ro"
                     poza={voda}
-                    telefon="43883929"
+                    telefon="0764-621-390"
                     />
               
                 <MembruEchipa echipa
@@ -105,7 +105,7 @@ const Echipa = () => {
                     descriere="Președinte OSUT"
                     mail="adrian@osut.ro"
                     poza={breha}
-                    telefon="9933838"
+                    telefon="0748-322-663"
                     />
 
             </Grid>
