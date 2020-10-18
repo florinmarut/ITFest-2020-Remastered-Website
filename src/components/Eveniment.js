@@ -8,51 +8,45 @@ const Eveniment = ({poza,titlu,descriere,data,ora="",formular}) => {
             <Grid item xs={12} md={6} lg={4}>
                 <div className="eveniment">
                 <img src={poza} alt={titlu} />
-                <div className="data_si_ora">
-                {ora &&  (<>
-                    <Typography
-                    color="textPrimary"
-                    variant="h6"
-                    component="h3"
-                    gutterbottom
-                    style={{display:"inline",fontWeight:"100"}}>
-                    {ora}
-                </Typography>
-                <Typography
-                color="textPrimary"
-                variant="h6"
-                component="h3"
-                gutterbottom
-                style={{display:"inline"}}>&nbsp;&middot;&nbsp;</Typography>
 
-                </>
-                )}      
-
-               
-                <Typography
-                color="textPrimary"
-                variant="h6"
-                component="h3"
-                gutterbottom
-                style={{display:"inline",fontWeight:"100"}}>
-                {data}
-              </Typography>
-                </div>
-                
                 <Typography
                     color="textPrimary"
                     variant="h5"
                     component="h3"
                     gutterbottom
-                    style={{fontWeight:"bold",marginBottom:10}}>
-                    
+                    style={{fontWeight:"bold",marginBottom:0}}>
                     {titlu}
                 </Typography>
+
+                <div className="data_si_ora">
+                <Typography
+                color="textPrimary"
+                variant="body2"
+                component="h3"
+                gutterbottom
+                style={{display:"inline",fontWeight:"100"}}>
+                {data}
+                </Typography>
+
+              {ora &&  (<>
+                    <Typography
+                    color="textPrimary"
+                    variant="body2"
+                    component="h3"
+                    gutterbottom
+                    style={{display:"inline",fontWeight:"100"}}>
+                    &nbsp;&middot;&nbsp;{ora}
+                </Typography>
+                </>
+                )}
+                </div>
+            
                 <Typography
                     color="textSecondary"
                     variant="body1"
                     component="p"
-                    gutterbottom>
+                    gutterbottom
+                    style={{marginTop:"10px"}}>
                     {descriere}
                 </Typography>
                 <a href={formular}>

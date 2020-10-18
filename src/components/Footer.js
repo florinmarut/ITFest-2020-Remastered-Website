@@ -32,14 +32,14 @@ const Footer = () => {
                 <img src="https://abc.osut.ro/img/logouri%202020/12-01.png?fbclid=IwAR05zlb_tFLtxO5ONaSywkCnliJUZekjwp9NjXr5x0CWzwMoNlRsycreSNY" 
                     
                     style={{width:"100%",maxWidth:"160px",display:"block"}}/>
-                Tel: 0123131231231<br />
-                    Email: @!#!@#!@#12312<br />
+                    Tel: 0123131231231<br/>
+                    Email: @!#!@#!@#12312<br/>
                 </Grid>
 
                 <Grid item xs={12} md={6} lg={4}>
                 <Typography
                         color="textLight"
-                        variant="h5"
+                        variant="h4"
                         component="h6"
                         >
                         Social media
@@ -49,7 +49,8 @@ const Footer = () => {
                         variant="body1"
                         component="p"
                         style={{
-                        marginTop: 10
+                        marginTop: 10,
+                        marginBottom: 10
                     }}>
                                         Urmărește-ne și pe rețelele de socializare pentru a fi la curent cu noutățile!
 

@@ -7,7 +7,7 @@ let THREE = win && window.THREE
 class Effect extends VantaBase {
   static initClass() {
     this.prototype.defaultOptions = {
-      color: 0x3CC0D4,
+      color: 0x3CC0A4,
       backgroundColor: 0x25163D,
       points: 10,
       maxDistance: 20,

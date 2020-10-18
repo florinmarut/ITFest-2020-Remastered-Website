@@ -2,21 +2,22 @@ import React from 'react';
 import Grid from '@material-ui/core/grid';
 import {Typography} from "@material-ui/core";
 import Button from '@material-ui/core/Button';
-const MembruEchipa = ({poza,titlu,descriere,mail}) => {
+const MembruEchipa = ({poza,titlu,descriere,mail,telefon}) => {
     return (
         
             <Grid item xs={12} md={4} lg={3}>
                 <div className="om_echipa">
+
+                <img src={poza} alt={titlu} />
                 <Typography
                     color="textPrimary"
                     variant="h6"
                     component="h3"
                     gutterbottom
-                    style={{textAlign:"center",marginBottom:10}}
+                    style={{textAlign:"center",marginTop:10}}
                     >
                     {titlu}
                 </Typography>
-                <img src={poza} alt={titlu} />
                
                 <Typography
                     color="textSecondary"
@@ -37,6 +38,10 @@ const MembruEchipa = ({poza,titlu,descriere,mail}) => {
                     style={{textAlign:"center",marginTop:10}}
                     >
                     <a href={`mailto:${mail}`}>{mail}</a>
+                    {
+                        telefon && (<>&nbsp;&middot;&nbsp; {telefon}</>)
+                    }
+                    
                    
                 </Typography>
                

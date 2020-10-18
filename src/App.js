@@ -27,6 +27,36 @@ let theme = createMuiTheme({
       },
     },
   },
+  palette: {
+    primary: {
+      main: "#c00"
+    },
+  },
+  typography: {
+    fontFamily:"Roboto",
+    h1:{
+      fontFamily: 'Lora',
+    },
+    h2:{
+      fontFamily: 'Lora',
+    },
+    h3:{
+      fontFamily: 'Lora',
+    },
+    h4:{
+      fontFamily: 'Lora',
+    },
+    h5:{
+      fontFamily: 'Lora',
+    },
+   
+    body1:{
+      fontSize: "1.07rem",
+      lineHeight: 1.60,
+    },
+   
+  }
+
 });
 theme = responsiveFontSizes(theme);
 
@@ -76,7 +106,7 @@ theme = responsiveFontSizes(theme);
       variant="h3"
       component="h1"
       gutterbottom
-      style={{marginTop:30}}
+      style={{marginTop:30,marginBottom:15}}
       >
         Despre ITFest
       </Typography>
@@ -103,7 +133,7 @@ theme = responsiveFontSizes(theme);
         justify="center"
         alignItems="flex-start"
         alignContent="center">
-        <Grid item md={12}>
+        <Grid item xs={12}>
           <Typography
               color="textPrimary"
               variant="h3"

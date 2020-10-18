@@ -1,4 +1,4 @@
-import React, { useState }  from 'react';
+import React, { useState, useEffect }  from 'react';
 import { AppBar, Toolbar, Typography,Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import IconButton from '@material-ui/core/IconButton';
@@ -7,6 +7,7 @@ import Brightness7Icon from '@material-ui/icons/Brightness7';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import MenuIcon from '@material-ui/icons/Menu';
 import Tooltip from '@material-ui/core/Tooltip';
+// import gsap from 'gsap';
 
 import SearchIcon from '@material-ui/icons/Search';
 import TextField from '@material-ui/core/TextField';
@@ -29,6 +30,7 @@ import Backdrop from '@material-ui/core/Backdrop';
 import {Link } from '@material-ui/core';
 import Paper from '@material-ui/core/Paper';
 import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
+import { red } from '@material-ui/core/colors';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -55,11 +57,9 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-
-
-
 const Header = ({mode,changeMode}) => {
   const [panica, setPanica] = useState(false);
+  
   const Middot = () => (<div style={{display:"inline",margin:"auto 5px",fontSize:"30px"}}>&middot;</div>)
   const handleClickOpen = () => {
     setPanica(true);
@@ -68,6 +68,7 @@ const Header = ({mode,changeMode}) => {
   const handleClose = () => {
     setPanica(false);
   };
+
   const [cautare, setCautare] = useState(false);
   const [proiecte, setProiecte] = useState(false);
 
@@ -79,6 +80,14 @@ const Header = ({mode,changeMode}) => {
 
   }
   const inchide = ()=>setCautare(false);
+
+  // useEffect(() => {
+  //   if (panica) {
+  //   }
+  //   let timeline = gsap.timeline({duration: 0.25, stagger: 2});
+  //   timeline.from(".link_meniu a", {left: 10})
+  // }, [panica])
+
  return (<div id="main_nav">
 
   <AppBar position="sticky" style={{position:"fixed",top:0,left:0,zIndex:19191919,borderBottom:"1px solid rgba(125,125,165,.1)",boxShadow:"none",background:'rgba(255,255,255,.8)',backdropFilter:'blur(14px)'}}>
@@ -91,7 +100,7 @@ const Header = ({mode,changeMode}) => {
       variant="regular"
     >
    
-      <Typography variant="h6" className={classes.title}>          <Tooltip title={"Prima pagina"} placement="bottom">
+      <Typography variant="h6" className={classes.title} color="primary">          <Tooltip title={"Prima pagina"} placement="bottom">
 
       <Link to="/" style={{textDecoration:"none"}}> 
 
@@ -132,14 +141,25 @@ ITFEST
      
 
       <IconButton edge="end" className={classes.menuButton} color="default" aria-label="menu">
-        <MenuIcon fontSize="large"/>
+        <MenuIcon fontSize="large" onClick={()=>setPanica(!panica)} />
       </IconButton>
       </Hidden>
     </Toolbar>
     </Container>
   </AppBar>
        
+  {panica && (
+<>
+<ul id="meniu">
+  <li className="link_meniu"><a href="#despre" onClick={handleClose}>DESPRE</a></li>
+  <li className="link_meniu"><a href="#evenimente" onClick={handleClose}>EVENIMENTE</a></li>
+  <li className="link_meniu"><a href="#echipa" onClick={handleClose}>ECHIPA</a></li>
+  <li className="link_meniu"><a href="#parteneri" onClick={handleClose}>PARTENERI</a></li>
+  <li className="link_meniu"><a href="#contact" onClick={handleClose}>CONTACT</a></li>
+</ul>
+</>
 
+  )}
    
      
   </div>);
