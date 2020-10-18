@@ -130,10 +130,10 @@ ITFEST
       
 
      
-      <Tooltip title={"Contacteaza-ne rapid"} placement="bottom">
+      {/* <Tooltip title={"Contacteaza-ne rapid"} placement="bottom">
 
         <Button style={{marginLeft:20}} variant="contained" color="primary">inscrie-te</Button>
-</Tooltip>
+</Tooltip> */}
       </Hidden>
 
       <Hidden mdUp>

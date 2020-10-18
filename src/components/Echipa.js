@@ -89,7 +89,7 @@ const Echipa = () => {
                     poza={adela}
                     />
                 <MembruEchipa echipa
-                    titlu="Delia Andreea Didița"
+                    titlu="Delia Andreea Didiță"
                     descriere="Responsabil Conferințe și Workshopuri"
                     mail="delia.didita00@e-uvt.ro"
                     poza={delia}

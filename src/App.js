@@ -117,7 +117,7 @@ theme = responsiveFontSizes(theme);
       component="p">
         ITFest este un proiect dedicat tinerilor pasionați de IT. Proiectul își propune, în primul rând, crearea unui spațiu eficient de învățare și transfer de cunoștințe printr-o serie de activități ce includ workshopuri și competiții dedicate tinerilor pasionați de IT. ITFest propune, de asemenea, și evenimente orientate către socializare: LAN Party-uri pentru gameri, precum și concursul iCONical pentru iubitorii de cosplay.
         <br /><br />
-        <Button color="primary" variant="contained">înscrie-te <ArrowRightAltIcon /></Button>
+        {/* <Button color="primary" variant="contained">înscrie-te <ArrowRightAltIcon /></Button> */}
       </Typography>
       </Grid>
       <Grid item md={4} xs={false}></Grid>
