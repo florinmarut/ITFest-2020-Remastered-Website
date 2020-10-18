@@ -16,7 +16,7 @@ const teo = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.app
 
 const Echipa = () => {
     return (
-        <div id="evenimente">
+        <div id="echipa">
             <Grid
                 container
                 spacing={12}
@@ -30,7 +30,7 @@ const Echipa = () => {
                         variant="h3"
                         component="h1"
                         style={{
-                        marginTop: 30,
+                        marginTop: 65,
                         marginBottom:30
                     }}>
                         Echipa

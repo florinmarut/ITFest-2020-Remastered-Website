@@ -37,7 +37,7 @@ const MembruEchipa = ({poza,titlu,descriere,mail,telefon}) => {
                     gutterbottom
                     style={{textAlign:"center",marginTop:10}}
                     >
-                    <a href={`mailto:${mail}`}>{mail}</a>
+                    <a href={`mailto:${mail}`} style={{color: "#037a96"}}>{mail}</a>
                     {
                         telefon && (<>&nbsp;&middot;&nbsp; {telefon}</>)
                     }

@@ -20,20 +20,46 @@ const Footer = () => {
                 alignItems="flex-start"
                 alignContent="center">
                 <Grid item xs={12} md={6} lg={4}>
-                    <img src="http://itfest.osut.ro/media/it_fest_logo_sized.png" 
-                    
-                    style={{width:"100%",maxWidth:"160px",display:"block"}}/>
-                    Tel: 0123131231231<br />
-                    Email: @!#!@#!@#12312<br />
-
+                    <img src="http://itfest.osut.ro/media/it_fest_logo_sized.png"    
+                        style={{width:"100%",maxWidth:"160px",display:"block"}}/>
+                    <br/>
+                    <Typography
+                        color="textLight"
+                        variant="body1"
+                        component="h1"
+                        >
+                        <img src="http://itfest.osut.ro/media/icon_call.png" alt="Tel:"/> (+40) 256-592-181
+                    </Typography>
+                    <Typography
+                        color="textLight"
+                        variant="body1"
+                        component="h1"
+                        >
+                        <img src="http://itfest.osut.ro/media/icon_email.png" alt="Email:"/> itfest@osut.ro
+                    </Typography>
                 </Grid>
-                <Grid item xs={12} md={6} lg={4}>
 
-                <img src="http://itfest.osut.ro/media/logo_osut_sized.png" 
-                    
-                    style={{width:"100%",maxWidth:"160px",display:"block"}}/>
-                    Tel: 0123131231231<br/>
-                    Email: @!#!@#!@#12312<br/>
+                <Grid item xs={12} md={6} lg={4}>
+                    <img src="http://itfest.osut.ro/media/logo_osut_sized.png" 
+                        style={{width:"100%",maxWidth:"160px",display:"block"}}/>
+                    <br/>
+                    <Typography
+                        color="textLight"
+                        variant="body1"
+                        component="h1"
+                        style={{
+                            padding: 0
+                        }}
+                        >
+                        <img src="http://itfest.osut.ro/media/icon_call.png" alt="Tel:"/> (+40) 256-592-181
+                    </Typography>
+                    <Typography
+                        color="textLight"
+                        variant="body1"
+                        component="h1"
+                        >
+                        <img src="http://itfest.osut.ro/media/icon_email.png" alt="Email:"/> Email: office@osut.ro
+                    </Typography>
                 </Grid>
 
                 <Grid item xs={12} md={6} lg={4}>
@@ -56,8 +82,8 @@ const Footer = () => {
 
                     </Typography>
                 
-                    <Button color="light"><a href=""><InstagramIcon color="primary" /></a></Button>
-                    <Button color="light"><a href=""><FacebookIcon color="primary" /></a></Button>
+                    <Button color="light"><a href="https://www.instagram.com/itfest.timisoara/"><InstagramIcon color="primary" /></a></Button>
+                    <Button color="light"><a href="https://www.facebook.com/ITFestTimisoara"><FacebookIcon color="primary" /></a></Button>
 
                 </Grid>
             </Grid>

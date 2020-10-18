@@ -113,17 +113,16 @@ ITFEST
      
 
       <Link activeClassName="selected" to="/blog" className={classes.link}> 
-        <Button color="default" style={{marginLeft: 10, marginRight: 10}}>Despre</Button>
+        <a href="#despre"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Despre</Button></a>
       </Link>
       <Link activeClassName="selected" to="/despre-osut" className={classes.link}> 
-        <Button color="default" style={{marginLeft: 10, marginRight: 10}}>Evenimente</Button>
+        <a href="#evenimente"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Evenimente</Button></a>
       </Link>
       <Link activeClassName="selected" to="/blog" className={classes.link}> 
-        <Button color="default" style={{marginLeft: 10, marginRight: 10}}>Echipa</Button>
+        <a href="#echipa"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Echipa</Button></a>
       </Link>
-     
       <Link activeClassName="selected" to="/informatii-studenti" className={classes.link}> 
-        <Button color="default" style={{marginLeft: 10, marginRight: 10}}>Contact</Button>
+        <a href="#contact"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Contact</Button></a>
       </Link>
      
 
@@ -154,7 +153,6 @@ ITFEST
   <li className="link_meniu"><a href="#despre" onClick={handleClose}>DESPRE</a></li>
   <li className="link_meniu"><a href="#evenimente" onClick={handleClose}>EVENIMENTE</a></li>
   <li className="link_meniu"><a href="#echipa" onClick={handleClose}>ECHIPA</a></li>
-  <li className="link_meniu"><a href="#parteneri" onClick={handleClose}>PARTENERI</a></li>
   <li className="link_meniu"><a href="#contact" onClick={handleClose}>CONTACT</a></li>
 </ul>
 </>

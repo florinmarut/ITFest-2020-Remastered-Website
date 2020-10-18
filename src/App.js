@@ -29,7 +29,7 @@ let theme = createMuiTheme({
   },
   palette: {
     primary: {
-      main: "#c00"
+      main: "#0C2948"
     },
   },
   typography: {
@@ -107,6 +107,7 @@ theme = responsiveFontSizes(theme);
       component="h1"
       gutterbottom
       style={{marginTop:30,marginBottom:15}}
+      id="despre"
       >
         Despre ITFest
       </Typography>
@@ -138,6 +139,7 @@ theme = responsiveFontSizes(theme);
               color="textPrimary"
               variant="h3"
               component="h1"
+              id="contact"
               style={{
               marginTop: 30,
               marginBottom:30,
@@ -146,16 +148,23 @@ theme = responsiveFontSizes(theme);
               Parteneri 
           </Typography>
           </Grid>
-          <Grid item xs={6} md={2}>
-          <img src="https://loolish.ro/wp-content/uploads/2020/07/loolish-85x85-blue.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />          </Grid>
-          <Grid item xs={6} md={2}>
-          <img src="https://loolish.ro/wp-content/uploads/2020/07/loolish-85x85-blue.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />          </Grid>
-          <Grid item xs={6} md={2}>
-              <img src="https://loolish.ro/wp-content/uploads/2020/07/loolish-85x85-blue.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
+            <Grid item xs={6} md={2}>
+              <img src="http://itfest.osut.ro/media/Parteneri/anosr_small.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
+            </Grid>
+            <Grid item xs={6} md={2}>
+              <img src="http://itfest.osut.ro/media/Parteneri/loolish-85x85-blue.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
+            </Grid>
+            <Grid item xs={6} md={2}>
+              <img src="http://itfest.osut.ro/media/Parteneri/my_pc_small.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
+            </Grid>
+            <Grid item xs={6} md={2}>
+              <img src="http://itfest.osut.ro/media/Parteneri/uvt_mic.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
+            </Grid>
           </Grid>
-          <Grid item xs={6} md={2}>
-          <img src="https://loolish.ro/wp-content/uploads/2020/07/loolish-85x85-blue.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
-          </Grid>
+          <Grid>
+          <Grid item xs={12} style={{marginTop: 30}}>
+              <img src="http://itfest.osut.ro/media/Parteneri/cjt_mic.png" style={{height:"90px",margin:"auto",display:"block"}} alt="uvt" />
+            </Grid>
           </Grid>
           </Container>
           <Footer />
