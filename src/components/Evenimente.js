@@ -1,7 +1,7 @@
 import React from 'react';
 import Eveniment from './Eveniment';
 import Grid from '@material-ui/core/grid';
-import {AppBar, Typography, Container} from "@material-ui/core";
+import {AppBar, Typography, Container, } from "@material-ui/core";
 
 const workshop1 = "https://firebasestorage.googleapis.com/v0/b/mytestproject-d6bc5.appspot.com/o/workshop.JPG?alt=media&token=9a27be53-bf12-4bb4-b2c7-5f10b53d70b0";
 const hackathon = "http://itfest.osut.ro/media/events/hackathon.png";

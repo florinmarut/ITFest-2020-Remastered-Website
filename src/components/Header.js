@@ -1,5 +1,5 @@
 import React, { useState, useEffect }  from 'react';
-import { AppBar, Toolbar, Typography,Box } from "@material-ui/core";
+import { AppBar, Toolbar, Typography,Box, Select, MenuItem, FormControl, FormHelperText } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import IconButton from '@material-ui/core/IconButton';
 import Button from '@material-ui/core/Button';
@@ -55,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
   inputPanica:{
     marginBottom:"20px"
   }
-}));
+}));  
 
 const Header = ({mode,changeMode}) => {
   const [panica, setPanica] = useState(false);
@@ -81,6 +81,11 @@ const Header = ({mode,changeMode}) => {
   }
   const inchide = ()=>setCautare(false);
 
+  const [eveniment, setEveniment] = React.useState('');
+  const handleChange = (event) => {
+    setEveniment(event.target.value);
+  };
+  
   // useEffect(() => {
   //   if (panica) {
   //   }
@@ -116,7 +121,26 @@ ITFEST
         <a href="#despre"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Despre</Button></a>
       </Link>
       <Link activeClassName="selected" to="/despre-osut" className={classes.link}> 
-        <a href="#evenimente"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Evenimente</Button></a>
+        {/* <a href="#evenimente"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Evenimente</Button></a> */}
+        <FormControl className={classes.formControl}>
+            <Select
+              style={{ width: "100%", zIndex: 291919200, }}
+              value={eveniment}
+              onChange={handleChange}
+              displayEmpty
+              className={classes.selectEmpty}
+              inputProps={{ 'aria-label': 'Without label' }}
+              >
+              <MenuItem value="">Workshopuri</MenuItem>
+              <MenuItem value="">Concursuri</MenuItem>
+              <MenuItem value="">iConical</MenuItem>
+              <MenuItem value="">LAN Party</MenuItem>
+              <MenuItem value="" disabled>
+                Evenimente
+              </MenuItem>
+          </Select>
+        </FormControl>
+
       </Link>
       <Link activeClassName="selected" to="/blog" className={classes.link}> 
         <a href="#echipa"><Button color="default" style={{marginLeft: 10, marginRight: 10}}>Echipa</Button></a>
@@ -151,7 +175,27 @@ ITFEST
 <>
 <ul id="meniu">
   <li className="link_meniu"><a href="#despre" onClick={handleClose}>DESPRE</a></li>
-  <li className="link_meniu"><a href="#evenimente" onClick={handleClose}>EVENIMENTE</a></li>
+  {/* <li className="link_meniu"><a href="#evenimente" onClick={handleClose}>EVENIMENTE</a></li> */}
+  <li className="link_meniu">
+    <FormControl className={classes.formControl}>
+            <Select
+              style={{ width: "100%", zIndex: 291919200, }}
+              value={eveniment}
+              onChange={handleChange}
+              displayEmpty
+              className={classes.selectEmpty}
+              inputProps={{ 'aria-label': 'Without label' }}
+              >
+              <MenuItem value="">Workshopuri</MenuItem>
+              <MenuItem value="">Concursuri</MenuItem>
+              <MenuItem value="">iConical</MenuItem>
+              <MenuItem value="">LAN Party</MenuItem>
+              <MenuItem value="" disabled>
+                Evenimente
+              </MenuItem>
+          </Select>
+        </FormControl>
+  </li>
   <li className="link_meniu"><a href="#echipa" onClick={handleClose}>ECHIPA</a></li>
   <li className="link_meniu"><a href="#contact" onClick={handleClose}>CONTACT</a></li>
 </ul>
