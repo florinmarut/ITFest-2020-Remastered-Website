@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/grid';
 import {Typography} from "@material-ui/core";
 import Button from '@material-ui/core/Button';
-const Eveniment = ({poza,titlu,descriere,data,ora="",formular}) => {
+const Eveniment = ({poza,titlu,descriere,data,ora="",invitat,formular}) => {
     return (
         
             <Grid item xs={12} md={6} lg={4}>
@@ -17,6 +17,18 @@ const Eveniment = ({poza,titlu,descriere,data,ora="",formular}) => {
                     style={{fontWeight:"bold",marginBottom:0}}>
                     {titlu}
                 </Typography>
+
+                {invitat && (<>
+                    <Typography
+                    color="textPrimary"
+                    variant="body1"
+                    component="h3"
+                    gutterbottom
+                    style={{marginBottom:10}}>
+                    Cu {invitat}
+                </Typography>
+                </>)}
+
 
                 <div className="data_si_ora">
                 <Typography

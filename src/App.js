@@ -162,33 +162,68 @@ theme = responsiveFontSizes(theme);
           }}>
               Parteneri 
           </Typography>
-          </Grid>
+        </Grid>
+
+
             <Grid item xs={6} md={2} >
-            <a href="https://www.anosr.ro/" style={{marginBottom: "15px"}}>
-              <img src="https://itfest.osut.ro/media/Parteneri/Black_ANOSR.png" style={{height:"80px",margin:"auto",display:"block"}} alt="anosr" />
+            <a href="https://www.anosr.ro/" style={{marginBottom: "20px"}}>
+              <img src="https://itfest.osut.ro/media/Parteneri/Black_ANOSR.png" style={{height:"80px",margin:"auto",display:"block",}} alt="anosr" />
             </a>
             </Grid>
-            <Grid item xs={6} md={2} style={{marginBottom: "15px"}}>
+            <Grid item xs={6} md={2} style={{marginBottom: "20px"}}>
             <a href="https://loolish.ro/">
               <img src="https://itfest.osut.ro/media/Parteneri/loolish-85x85-blue.png" style={{height:"80px",margin:"auto",display:"block"}} alt="loolish" />
             </a>
             </Grid>
             <Grid item xs={6} md={2}>
-              <a href="https://mypctm.ro/" style={{marginTop: "15px"}}>
+              <a href="https://mypctm.ro/" style={{marginBottom: "20px"}}>
                 <img src="https://itfest.osut.ro/media/Parteneri/logo-mypctm.png" style={{height:"80px",margin:"auto",display:"block"}} alt="mypctm" />
               </a>
             </Grid>
-            <Grid item xs={6} md={2} >
+            <Grid item xs={6} md={2} style={{marginBottom: "20px"}}>
+              <a href="https://www.uvt.ro/ro/">
               <img src="https://itfest.osut.ro/media/Parteneri/Black_uvt.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
-            </Grid>
-          </Grid>
-          <Grid>
-          <Grid item xs={12} style={{marginTop: 30}} className="parteneri">
-              <a href="http://www.cjtimis.ro/">
-                <img src="https://itfest.osut.ro/media/Parteneri/Black_CJT.png" style={{height:"120px",margin:"auto",display:"block"}} alt="CJTimiș" />
               </a>
             </Grid>
+            <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>
+              <a href="http://www.cjtimis.ro/">
+                <img src="https://itfest.osut.ro/media/Parteneri/Black_CJT.png" style={{height:"80px",margin:"auto",display:"block"}} alt="CJTimiș" />
+              </a>
+            </Grid>
+            <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>
+              <a href="https://www.hackthezone.com/">
+                <img src="https://itfest.osut.ro/media/Parteneri/logo-htz-NOU-2020.png" style={{height:"80px",margin:"auto",display:"block"}} alt="CJTimiș" />
+              </a>
+            </Grid>
+        </Grid>
+
+        
+        <Grid
+        container
+        spacing={12}
+        direction="row"
+        justify="center"
+        alignItems="flex-start"
+        alignContent="center">
+          <Grid item xs={6} md={2}>
+              <img src="https://itfest.osut.ro/media/Parteneri/drinkit.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="mypctm" />
           </Grid>
+          <Grid item xs={6} md={2} style={{marginBottom: "20px"}}>
+            <img src="https://itfest.osut.ro/media/Parteneri/libertateinit.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+          </Grid>
+          <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>
+              <img src="https://itfest.osut.ro/media/Parteneri/insites consulting.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="CJTimiș" />
+          </Grid>
+          <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>
+              <img src="https://itfest.osut.ro/media/Parteneri/TFP-logo.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="CJTimiș" />
+          </Grid>
+        </Grid>
+
+
+          <Grid>
+            
+          </Grid>
+
           </Container>
           <Footer />
     
