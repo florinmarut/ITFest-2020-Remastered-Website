@@ -77,6 +77,7 @@ theme = responsiveFontSizes(theme);
   }, [vantaEffect])
 
 
+
   const Spacer = ()=>(<div style={{margin:"45px auto"}}></div>);
   return (<>
          <ThemeProvider theme={theme} >

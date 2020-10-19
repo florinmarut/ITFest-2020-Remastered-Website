@@ -12,7 +12,7 @@ const voda = "https://itfest.osut.ro/media/team/voda.png"
 const sergiu = "https://itfest.osut.ro/media/team/sergiu.png";
 const patricia = "https://itfest.osut.ro/media/team/patricia.png";
 const neli = "https://itfest.osut.ro/media/team/neli.png";
-const teo = "https://itfest.osut.ro/media/team/patricia.png";
+const teo = "https://itfest.osut.ro/media/team/teo.png";
 const borbi = "https://itfest.osut.ro/media/team/borbi.png"
 
 const Echipa = () => {

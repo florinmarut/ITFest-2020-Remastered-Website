@@ -86,6 +86,11 @@ const Header = ({mode,changeMode}) => {
     setEveniment(event.target.value);
   };
   
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  } 
+
   // useEffect(() => {
   //   if (panica) {
   //   }
@@ -105,14 +110,14 @@ const Header = ({mode,changeMode}) => {
       variant="regular"
     >
    
-      <Typography variant="h6" className={classes.title} color="primary">          <Tooltip title={"Prima pagina"} placement="bottom">
+      <Typography variant="h6" className={classes.title} color="primary"> 
 
       <Link to="/" style={{textDecoration:"none"}}> 
- 
+        {/* <a href=""> */}
         <img src="https://itfest.osut.ro/media/it_fest_logo_sized_color.png" alt="itfest"
-        style={{height: 18}}/> 
-
-      </Link></Tooltip>
+        style={{height: 18, cursor: "pointer"}} onClick={topFunction}/> 
+        {/* </a> */}
+      </Link>
       </Typography>
       
       <Hidden smDown>

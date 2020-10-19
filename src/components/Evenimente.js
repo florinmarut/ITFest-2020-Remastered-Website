@@ -73,19 +73,21 @@ const Evenimente = () => {
                     descriere="Sfaturi pentru o cariera in IT."
                     data="Luni, 2 Noiembrie"
                     poza={workshop1}
-                    ora="02:33PM"
+                    ora="19:00"
                     formular="#"/>
                 <Eveniment
                     titlu="Webinar cu Ramon Năstase"
                     descriere="Cum sa obții un job în IT în 12 luni fără nicio experiență anterioară."
                     data="Marți, 3 Noiembrie"
                     poza={workshop1}
+                    ora="18:00"
                     formular="#"/>
                 <Eveniment
                     titlu="Webinar cu Cristian Dascălu"
                     descriere="Despre bani în freelancing."
                     data="Miercuri, 4 Noiembrie"
                     poza={workshop1}
+                    ora="18:00"
                     formular="#"/>
                 <Eveniment
                     titlu="Webinar Te Fac Programator"
