@@ -126,8 +126,8 @@ theme = responsiveFontSizes(theme);
       color="textSecondary"
       variant="body1"
       component="p">
-        Anul acesta cea de-a XV-a ediţie se desfășoară în regim online și offline în perioada 2 - 15 noiembrie. 
-        Echipa ITFest pregătește atât conferințe și workshopuri pe subiectele de tendință ale comunității IT, 
+        Anul acesta cea de-a XV-a ediţie se desfășoară în regim exclusiv online în perioada 2 - 15 noiembrie. 
+        Echipa ITFest Timișoara pregătește atât conferințe și workshopuri pe subiectele de tendință ale comunității IT, 
         cât și concursuri și LAN Party-uri cu premii pe măsură. Mai mult decât atât, se organizează și un concurs 
         de cosplay pentru fanii producțiilor animate. 
         <br /><br />
@@ -247,7 +247,7 @@ theme = responsiveFontSizes(theme);
           </Grid>
           <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>
             <a href="https://www.youtube.com/c/VlogdeIT/featured" target="_blank">
-              <img src="https://itfest.osut.ro/media/events/vlogit.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="Vlogit" />
+              <img src="https://itfest.osut.ro/media/Parteneri/vlogit-logo.png" style={{height:"80px",margin:"auto",display:"block"}} alt="Vlogit" />
             </a>
           </Grid>
           <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>

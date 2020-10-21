@@ -82,7 +82,7 @@ const Evenimente = () => {
                 alignItems="flex-start"
                 alignContent="center">
                 <Eveniment
-                    titlu="Sfaturi pentru o carieră de succes in IT"
+                    titlu="Sfaturi pentru o carieră de succes în IT"
                     descriere="Radu Popescu are peste 14 ani de experiență în IT, trecând prin mai multe joburi de la Game Testing sau Game Developer și până la UI/UX Designer. Pe parcursul acestor ani a fost implicat în mai multe proiecte de tip Startup (precum BuyAndHelp), dar și în zona de freelance, având, astfel, o experiență completă asupra IT-ului din România. În ultimii 3 ani, acesta s-a ocupat și de comunitatea VlogDeIT care a adunat în total peste 20.000 de tineri pasionați de IT și programare. "
                     data="Luni, 2 Noiembrie"
                     poza={vlogit}
@@ -90,8 +90,8 @@ const Evenimente = () => {
                     invitat="Radu Popescu"
                     formular="http://www.123formbuilder.com/form-5678332/form"/>
                 <Eveniment
-                    titlu="Cum sa obții un job în IT în 12 luni fără nicio experiență anterioară"
-                    descriere="Ramon Năstase, trainer IT, autor si fondatorul companiei TeachBit, îți va arăta care sunt cele top 5 cele mai cautate job-uri de IT din Romania și  cum poți să obții job-ul din IT ales urmând un proces concret de angajare în IT format din 3 pași."
+                    titlu="Cum să obții un job în IT în 12 luni fără nicio experiență anterioară"
+                    descriere="Ramon Năstase, trainer IT, autor si fondatorul companiei TeachBit, îți va arăta care sunt cele top 5 cele mai cautate joburi de IT din Romania și  cum poți să obții job-ul din IT ales urmând un proces concret de angajare în IT format din 3 pași."
                     data="Marți, 3 Noiembrie"
                     poza={ramon_nastase}
                     ora="18:00"
@@ -107,7 +107,7 @@ const Evenimente = () => {
                     formular="http://www.123formbuilder.com/form-5678337/form"/>
                 <Eveniment
                     titlu="Tips&Tricks CV și posibilități de carieră în domeniul IT"
-                    descriere="La webinar te așteaptă doi programatori cu experiență de ani buni în IT, doi oameni trecuți prin câteva companii ce vor vorbi despre posibilitățile de carieră: Database, Embedded, Security, ș.a.m.d. Vor povesti inclusiv despre experiența de creare de conținut pe canalul lor de Youtube. Cei doi speakeri au învățat totul de la zero de unii singuri și sunt gata să împărtășească, la o halbă, tot ce au învățat aceștia."
+                    descriere="La webinar te așteaptă doi programatori cu experiență de ani buni în IT, doi oameni trecuți prin câteva companii ce vor vorbi despre posibilitățile de carieră: Database, Embedded, Security ș.a.m.d. Vor povesti inclusiv despre experiența de creare de conținut pe canalul lor de Youtube. Cei doi speakeri au învățat totul de la zero de unii singuri și sunt gata să împărtășească, la o halbă, tot ce au învățat aceștia."
                     data="Joi, 5 Noiembrie"
                     poza={drinkIT}
                     ora="18:00"
@@ -115,7 +115,7 @@ const Evenimente = () => {
                     formular="http://www.123formbuilder.com/form-5687582/form"/>
                 <Eveniment
                     titlu="Webinar despre Insites Consulting"
-                    descriere="Insites Consulting este o agenție de marketing internațională care vine în ajutorul brandurilor pentru a le promova la nivel local. Echipa agenției este formată din marketeri pasionați, cercetători inovativi și entuziaști în ale marketingului.Pentru a-și îndeplini misiunea, ei folosesc cele mai recente tehnologii din domeniul IT și reușesc să-și facă treaba pe măsură!"
+                    descriere="Insites Consulting este o agenție de marketing internațională care vine în ajutorul brandurilor pentru a le promova la nivel local. Echipa agenției este formată din marketeri pasionați, cercetători inovativi și entuziaști în ale marketingului. Pentru a-și îndeplini misiunea, ei folosesc cele mai recente tehnologii din domeniul IT și reușesc să-și facă treaba pe măsură."
                     data="Luni, 9 Noiembrie"
                     poza={in_sites_consulting}
                     ora="18:00"
@@ -199,7 +199,7 @@ const Evenimente = () => {
                     formular="http://www.123formbuilder.com/form-5678360/form"/>
                 <Eveniment
                     titlu="Capture the flag"
-                    descriere="Acest concurs constă în exploatarea unui site, pentru a găsi vulnerabilități în front/back end-ul acestuia, cât și în baza sa de date. Scopul jocului este de a găsi un hash, mai exact un șir de caractere codate numit ‘flag’."
+                    descriere="Acest concurs constă în exploatarea unui sistem informatic vulnerabil (program, website, rețea) în scopul obținerii unui „flag” (cod/fișier)."
                     data="Duminică, 15 Noiembrie"
                     poza={ctf}
                     formular="http://www.123formbuilder.com/form-5688080/form"/>
