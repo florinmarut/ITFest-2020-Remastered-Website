@@ -61,7 +61,8 @@ const Eveniment = ({poza,titlu,descriere,data,ora="",invitat,formular}) => {
                     style={{marginTop:"10px"}}>
                     {descriere}
                 </Typography>
-                <a href={formular}>
+                <a href={formular} target="_blank"
+                style={{bottom: 0}}>
                     <Button color="primary" 
                     style={{marginTop:15}}
                     variant="contained">inscrie-te</Button>

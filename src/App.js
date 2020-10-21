@@ -165,36 +165,56 @@ theme = responsiveFontSizes(theme);
         </Grid>
 
 
+        <Grid
+        container
+        spacing={12}
+        direction="row"
+        justify="center"
+        alignItems="flex-start"
+        alignContent="center">
+          <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "40px"}}>
+              <a href="http://www.cjtimis.ro/" target="_blank">
+                <img src="https://itfest.osut.ro/media/Parteneri/Black_CJT.png" style={{height:"80px",margin:"auto",display:"block"}} alt="CJTimiș" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={2} style={{marginBottom: "40px"}}>
+              <a href="https://www.uvt.ro/ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/Black_uvt.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+              </a>
+          </Grid>
+        </Grid>
+
+
             <Grid item xs={6} md={2} >
-            <a href="https://www.anosr.ro/" style={{marginBottom: "20px"}}>
+            <a href="https://www.anosr.ro/" style={{marginBottom: "20px"}} target="_blank">
               <img src="https://itfest.osut.ro/media/Parteneri/Black_ANOSR.png" style={{height:"80px",margin:"auto",display:"block",}} alt="anosr" />
             </a>
             </Grid>
             <Grid item xs={6} md={2} style={{marginBottom: "20px"}}>
-            <a href="https://loolish.ro/">
+            <a href="https://loolish.ro/" target="_blank">
               <img src="https://itfest.osut.ro/media/Parteneri/loolish-85x85-blue.png" style={{height:"80px",margin:"auto",display:"block"}} alt="loolish" />
             </a>
             </Grid>
             <Grid item xs={6} md={2}>
-              <a href="https://mypctm.ro/" style={{marginBottom: "20px"}}>
+              <a href="https://mypctm.ro/" style={{marginBottom: "20px"}} target="_blank">
                 <img src="https://itfest.osut.ro/media/Parteneri/logo-mypctm.png" style={{height:"80px",margin:"auto",display:"block"}} alt="mypctm" />
               </a>
             </Grid>
-            <Grid item xs={6} md={2} style={{marginBottom: "20px"}}>
-              <a href="https://www.uvt.ro/ro/">
-              <img src="https://itfest.osut.ro/media/Parteneri/Black_uvt.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
-              </a>
+            <Grid item xs={6} md={2}>
+            <a href="https://amberstudio.com/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/amber-logo.png" style={{height:"80px",margin:"auto",display:"block"}} alt="amber" />
+            </a>
             </Grid>
             <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>
-              <a href="http://www.cjtimis.ro/">
-                <img src="https://itfest.osut.ro/media/Parteneri/Black_CJT.png" style={{height:"80px",margin:"auto",display:"block"}} alt="CJTimiș" />
-              </a>
-            </Grid>
-            <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>
-              <a href="https://www.hackthezone.com/">
+              <a href="https://www.hackthezone.com/" target="_blank">
                 <img src="https://itfest.osut.ro/media/Parteneri/logo-htz-NOU-2020.png" style={{height:"80px",margin:"auto",display:"block"}} alt="CJTimiș" />
               </a>
             </Grid>
+            <Grid item xs={6} md={2} style={{marginBottom: "20px"}}>
+            <a href="https://www.youtube.com/channel/UCpXQ05JUR6pGwc2AmhhF1Eg" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/daniel_cristea_logo.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="Daniel Cristea" />
+            </a>
+          </Grid>
         </Grid>
 
         
@@ -206,19 +226,36 @@ theme = responsiveFontSizes(theme);
         alignItems="flex-start"
         alignContent="center">
           <Grid item xs={6} md={2}>
-              <img src="https://itfest.osut.ro/media/Parteneri/drinkit.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="mypctm" />
+            <a href="https://www.youtube.com/channel/UCanacfH1MPBLqYiAD2WOhyQ" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/drinkit.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="DrinkIT" />
+            </a>
           </Grid>
           <Grid item xs={6} md={2} style={{marginBottom: "20px"}}>
-            <img src="https://itfest.osut.ro/media/Parteneri/libertateinit.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+            <a href="https://libertateinit.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/libertateinit.png" style={{height:"80px",margin:"auto",display:"block"}} alt="Libertate Init" />
+            </a>
           </Grid>
           <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>
-              <img src="https://itfest.osut.ro/media/Parteneri/insites consulting.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="CJTimiș" />
+            <a href="https://insites-consulting.com/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/insites consulting.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="InSites Consulting" />
+            </a>
           </Grid>
           <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>
-              <img src="https://itfest.osut.ro/media/Parteneri/TFP-logo.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="CJTimiș" />
+            <a href="https://te-fac-programator.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/TFP-logo.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="Te Fac Programator" />
+            </a>
+          </Grid>
+          <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>
+            <a href="https://www.youtube.com/c/VlogdeIT/featured" target="_blank">
+              <img src="https://itfest.osut.ro/media/events/vlogit.jpg" style={{height:"80px",margin:"auto",display:"block"}} alt="Vlogit" />
+            </a>
+          </Grid>
+          <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "20px"}}>
+            <a href="https://ramonnastase.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/ramonastase-logo.jpg" style={{height:"90px",margin:"auto",display:"block"}} alt="Ramon Nastase" />
+            </a>
           </Grid>
         </Grid>
-
 
           <Grid>
             
