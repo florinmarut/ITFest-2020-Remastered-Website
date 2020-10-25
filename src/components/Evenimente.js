@@ -69,7 +69,7 @@ const Evenimente = () => {
                         marginBottom: 18,
                         paddingBottom: 6
                     }}>
-                        Workshopuri și conferințe
+                        Workshopuri și conferințe - Online
                     </Typography>
                 </Grid>
             </Grid>
@@ -87,6 +87,7 @@ const Evenimente = () => {
                     data="Luni, 2 Noiembrie"
                     poza={vlogit}
                     ora="19:00"
+                    deadline="Sâmbătă, 31 Octombrie"
                     invitat="Radu Popescu"
                     formular="http://www.123formbuilder.com/form-5678332/form"/>
                 <Eveniment
@@ -95,6 +96,7 @@ const Evenimente = () => {
                     data="Marți, 3 Noiembrie"
                     poza={ramon_nastase}
                     ora="18:00"
+                    deadline="Duminică, 1 Noiembrie"
                     invitat="Ramon Năstase"
                     formular="http://www.123formbuilder.com/form-5687550/form"/>
                 <Eveniment
@@ -103,6 +105,7 @@ const Evenimente = () => {
                     data="Miercuri, 4 Noiembrie"
                     poza={libertate_init}
                     ora="18:00"
+                    deadline="Luni, 2 Noiembrie"
                     invitat="Cristian Dascălu"
                     formular="http://www.123formbuilder.com/form-5678337/form"/>
                 <Eveniment
@@ -111,6 +114,7 @@ const Evenimente = () => {
                     data="Joi, 5 Noiembrie"
                     poza={drinkIT}
                     ora="18:00"
+                    deadline="Marți, 3 Noiembrie"
                     invitat="cei de la DrinkIT"
                     formular="http://www.123formbuilder.com/form-5687582/form"/>
                 <Eveniment
@@ -119,6 +123,7 @@ const Evenimente = () => {
                     data="Luni, 9 Noiembrie"
                     poza={in_sites_consulting}
                     ora="18:00"
+                    deadline="Sâmbătă, 7 Noiembrie"
                     invitat="cei de la Insites Consulting"
                     formular="http://www.123formbuilder.com/form-5687601/form"/>
                 <Eveniment
@@ -127,6 +132,7 @@ const Evenimente = () => {
                     data="Luni, 9 Noiembrie"
                     poza={daniel_cristea}
                     ora="19:30"
+                    deadline="Sâmbătă, 7 Noiembrie"
                     invitat="Daniel Cristea"
                     formular="http://www.123formbuilder.com/form-5678341/form"/>
                 <Eveniment
@@ -135,6 +141,7 @@ const Evenimente = () => {
                     data="Marți, 10 Noiembrie"
                     poza={te_fac_programator}
                     ora="19:00"
+                    deadline="Duminică, 8 Noiembrie"
                     invitat="cei de la Te Fac Programator"
                     formular="http://www.123formbuilder.com/form-5687598/form"/>
                 <Eveniment
@@ -143,6 +150,7 @@ const Evenimente = () => {
                     data="Miercuri, 11 Noiembrie"
                     poza={amber}
                     ora="18:00"
+                    deadline="Luni, 9 Noiembrie"
                     invitat="cei de la Amber"
                     formular="http://www.123formbuilder.com/form-5687613/form"/>
                 <Eveniment
@@ -151,6 +159,7 @@ const Evenimente = () => {
                     data="Joi, 12 Noiembrie"
                     poza={hackthezone}
                     ora="18:00"
+                    deadline="Marți, 10 Noiembrie"
                     invitat="cei de la HackTheZone"
                     formular="http://www.123formbuilder.com/form-5678344/form"/>
             </Grid>
@@ -173,7 +182,7 @@ const Evenimente = () => {
                         marginBottom: 18,
                         paddingBottom: 6
                     }}>
-                        Concursuri
+                        Concursuri - Online
                     </Typography>
                 </Grid>
             </Grid>
@@ -190,18 +199,21 @@ const Evenimente = () => {
                     descriere="Hackathonul organizat de noi este un concurs de programare cu o durată de 12 de ore pe o temă stabilită de echipa ITFest Timișoara. Participanții formează echipe și concurează, urmând a fi premiat cel mai inovativ produs și creatorii ei."
                     data="Sâmbătă, 14 Noiembrie"
                     poza={hackathon}
+                    deadline="Joi, 12 Noiembrie"
                     formular="http://www.123formbuilder.com/form-5678357/form"/>
                 <Eveniment
                     titlu="Concurs de algoritmică"
-                    descriere="Acest concurs este o competiție desemnată elevilor din liceu, ce își propune să testeze și să recompenseze agilitatea și inventivitatea de a aplica diferiți algoritmi în probleme de actualitate."
+                    descriere="Acest concurs este o competiție desemnată studenților, dar și elevilor din liceu, ce își propune să testeze și să recompenseze agilitatea și inventivitatea de a aplica diferiți algoritmi în probleme de actualitate."
                     data="Vineri, 13 Noiembrie"
                     poza={algoritmica}
+                    deadline="Miercuri, 11 Noiembrie"
                     formular="http://www.123formbuilder.com/form-5678360/form"/>
                 <Eveniment
                     titlu="Capture the flag"
-                    descriere="Acest concurs constă în exploatarea unui sistem informatic vulnerabil (program, website, rețea) în scopul obținerii unui „flag” (cod/fișier)."
+                    descriere="Acest concurs constă în exploatarea unui sistem informatic vulnerabil (program, website, rețea) în scopul obținerii unui „flag” (cod/fișier). Concursul va avea echipe de maxim 3 membri."
                     data="Duminică, 15 Noiembrie"
                     poza={ctf}
+                    deadline="Vineri, 13 Noiembrie"
                     formular="http://www.123formbuilder.com/form-5688080/form"/>
 
             </Grid>
@@ -224,7 +236,7 @@ const Evenimente = () => {
                         marginBottom: 18,
                         paddingBottom: 6
                     }}>
-                        LAN Party
+                        LAN Party - Online
                     </Typography>
                 </Grid>
             </Grid>
@@ -241,32 +253,36 @@ const Evenimente = () => {
                     descriere="Competiția de Rocket League se va desfăşura în totalitate online, prin intermediul platformelor Epic Games sau Steam. Echipa va fi alcătuită din 3 membri, o rezervă (opţional) și un antrenor (opțional), dintre care unul va fi ales căpitan de echipă."
                     data="Vineri, 6 Noiembrie"
                     poza={rocket_league}
+                    deadline="Miercuri, 4 Noiembrie"
                     formular="http://www.123formbuilder.com/form-5687524/itfest-2020-rocket-league"/>
                     <Eveniment
                     titlu="Hearthstone"
                     descriere="Competiția de Hearthstone din cadrul ediției curente va avea loc în regim online. Numărul de participanți este destul de mare, iar formatul concursului este de tip Conquest Bo3 și Bo5."
                     data="Vineri, 6 Noiembrie"
                     poza={hearthstone}
+                    deadline="Miercuri, 4 Noiembrie"
                     formular="http://www.123formbuilder.com/form-5679895/form"/>
                     <Eveniment
                     titlu="League of Legends"
                     descriere="Competiția de League of Legends se va desfăşura prin intermediul platformei Faceit în regim online. Echipe de câte cinci jucători și două rezerve (opțional) ce vor concura pentru câteva premii fascinante oferite de echipa ITFest Timișoara!"
                     data="Sâmbătă, 7 Noiembrie"
                     poza={lol}
+                    deadline="Joi, 5 Noiembrie"
                     formular="http://www.123formbuilder.com/form-5678372/itfest-2020-league-of-legends"/>
                     <Eveniment
                     titlu="Board Games"
-                    descriere="O serie de jocuri de societate care îți oferă oportunitatea de a cunoaște oameni noi și de a te relaxa distra în regim online. Printre jocurile incluse se enumeră: Among Us, Uno, Mafia Online și altele."
+                    descriere="O serie de jocuri de societate care îți oferă oportunitatea de a cunoaște oameni noi și de a te relaxa, distra în regim online. Printre jocurile incluse se enumeră: Among Us, Uno, Mafia Online și altele."
                     data="Sâmbătă, 7 Noiembrie"
                     poza={board_games}
+                    deadline="Joi, 5 Noiembrie"
                     formular="http://www.123formbuilder.com/form-5687186/itfest-2020-board-games"/>
                     <Eveniment
                     titlu="CS:GO"
-                    descriere="Competiția de CSGO din cadrul proiectului ITFest 2020 se organizează în regim online prin intermediul platformei Faceit. Echipa va fi alcătuită din 5 membri, 2 rezerve (opţional) și un antrenor (opțional), dintre care unul va fi ales căpitan de echipă."
+                    descriere="Competiția de CS:GO din cadrul proiectului ITFest 2020 se organizează în regim online prin intermediul platformei Faceit. Echipa va fi alcătuită din 5 membri, 2 rezerve (opţional) și un antrenor (opțional), dintre care unul va fi ales căpitan de echipă."
                     data="Duminică, 8 Noiembrie"
                     poza={csgo}
+                    deadline="Vineri, 6 Noiembrie"
                     formular="http://www.123formbuilder.com/form-5678365/form"/>
-
                 </Grid>
 
                 <Grid
@@ -287,7 +303,7 @@ const Evenimente = () => {
                         marginBottom: 18,
                         paddingBottom: 6
                     }}>
-                        iConical
+                        iCONical - Online
                     </Typography>
                 </Grid>
             </Grid>
@@ -300,10 +316,11 @@ const Evenimente = () => {
                 alignItems="flex-start"
                 alignContent="center">
                     <Eveniment
-                    titlu="iConical"
+                    titlu="iCONical"
                     descriere="Convenția iCONical este printre cele mai recente secțiuni ale proiectului. Evenimentul de tip Comic Con are ca atracție principală un concurs de cosplay, ce adună pasionați de personaje din cărți, seriale, filme, jocuri sau alte creații ficționale. "
                     data="Duminică, 15 Noiembrie"
                     poza={iconical}
+                    deadline="Vineri, 13 Noiembrie"
                     formular="http://www.123formbuilder.com/form-5678380/form"/>
 
                 </Grid>
