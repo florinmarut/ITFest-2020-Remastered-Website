@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/grid';
 import {Typography} from "@material-ui/core";
 import Button from '@material-ui/core/Button';
-const Eveniment = ({poza,titlu,descriere,data,ora="",invitat,deadline,formular}) => {
+const Eveniment = ({poza,titlu,descriere,data,ora="",invitat,deadline,regulament,formular}) => {
     return (
         
             <Grid item xs={12} md={6} lg={4}>
@@ -72,9 +72,26 @@ const Eveniment = ({poza,titlu,descriere,data,ora="",invitat,deadline,formular})
                     variant="body1"
                     component="p"
                     gutterbottom
-                    style={{marginTop:"10px"}}>
+                    style={{marginTop:"10px", bottom: 10}}>
                     {descriere}
                 </Typography>
+                        <b></b>
+                <div className="reguli">
+                    {regulament && (<>
+                        <a href={regulament} target="_blank"
+                        style={{textDecoration: "none", bottom: 0}}>
+                        <Typography
+                        color="textPrimary"
+                        variant="body2"
+                        component="h3"
+                        style={{display: "inline",fontWeight:"100", color: "#037a96"}}
+                        >
+                            Vezi regulamentul.
+                        </Typography>
+                        </a>
+                    </>)}
+                </div>
+
                 <a href={formular} target="_blank"
                 style={{bottom: 0}}>
                     <Button color="primary" 

@@ -172,22 +172,27 @@ theme = responsiveFontSizes(theme);
         justify="center"
         alignItems="flex-start"
         alignContent="center">
-          <Grid item xs={6} md={2} className="parteneri" style={{marginBottom: "40px"}}>
+          <Grid item xs={12} md={4} className="parteneri" style={{marginBottom: "40px"}}>
               <a href="http://www.cjtimis.ro/" target="_blank">
                 <img src="https://itfest.osut.ro/media/Parteneri/Black_CJT.png" style={{height:"80px",margin:"auto",display:"block"}} alt="CJTimiș" />
               </a>
           </Grid>
-          <Grid item xs={6} md={2} style={{marginBottom: "40px"}}>
+          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
               <a href="https://www.uvt.ro/ro/" target="_blank">
               <img src="https://itfest.osut.ro/media/Parteneri/Black_uvt.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+              </a>
+          </Grid>
+          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+              <a href="https://www.anosr.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/Black_ANOSR.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
               </a>
           </Grid>
         </Grid>
 
 
             <Grid item xs={6} md={2} >
-            <a href="https://www.anosr.ro/" style={{marginBottom: "20px"}} target="_blank">
-              <img src="https://itfest.osut.ro/media/Parteneri/Black_ANOSR.png" style={{height:"80px",margin:"auto",display:"block",}} alt="anosr" />
+            <a href="https://savnet.ro/" style={{marginBottom: "20px"}} target="_blank">
+              <img src="https://itfest.osut.ro/media/events/logo-savnet.png" style={{height:"60px",margin:"auto",display:"block",}} alt="savnet" />
             </a>
             </Grid>
             <Grid item xs={6} md={2} style={{marginBottom: "20px"}}>

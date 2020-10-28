@@ -25,6 +25,7 @@ const hearthstone = "https://itfest.osut.ro/media/events/HS_small.png";
 const lol = "https://itfest.osut.ro/media/events/LOL_small.png";
 const board_games = "https://itfest.osut.ro/media/events/boardsgames_small.png";
 const csgo = "https://itfest.osut.ro/media/events/CSGO_small.png";
+const savnet = "https://itfest.osut.ro/media/events/savnet-eveniment.jpg";
 
 
 
@@ -99,6 +100,15 @@ const Evenimente = () => {
                     deadline="Duminică, 1 Noiembrie"
                     invitat="Ramon Năstase"
                     formular="http://www.123formbuilder.com/form-5687550/form"/>
+                <Eveniment
+                    titlu="Internet sub microscop. Cum construiesc prima mea rețea?"
+                    descriere="Savnet dispune de o experiență de predare globală și de formatori recunoscuți la nivel internațional. Cursurile oferite de aceștia te pregătesc de cerințele companiilor și îți asigură prezența la interviuri de angajare, oportunități puse la dispoziție de partenerii Savnet. În cadrul workshopului, ei îți vor arăta cum se construiește o rețea la nivel practic."
+                    data="Marți, 3 Noiembrie"
+                    poza={savnet}
+                    ora="19:30"
+                    deadline="Duminică, 1 Noiembrie"
+                    invitat="cei din echipa Savnet"
+                    formular="http://www.123formbuilder.com/form-5696053/itfest-2020-workshop-savnet"/>
                 <Eveniment
                     titlu="Despre bani în freelancing"
                     descriere="Contactat de Google și Facebook, olimpic la informatică, devenit vlogger, el a vrut să se întoarcă în România. Își dorește să se dezvolte în direcții diferite, dar și utile și să ajute cu orice putință țara din în care s-a născut. Nimeni altul decât Cristian Dascălu este cel care își va împărtăși cunoștințele sale despre freelancing, sperând să motiveze și alți tineri să opteze pentru asta în cariera lor."
@@ -254,13 +264,15 @@ const Evenimente = () => {
                     data="Vineri, 6 Noiembrie"
                     poza={rocket_league}
                     deadline="Miercuri, 4 Noiembrie"
+                    regulament="https://drive.google.com/file/d/1TWpf05uIb5dhxsNxE0HyBGLipv2TyOB6/view?usp=sharing"
                     formular="http://www.123formbuilder.com/form-5687524/itfest-2020-rocket-league"/>
                     <Eveniment
                     titlu="Hearthstone"
-                    descriere="Competiția de Hearthstone din cadrul ediției curente va avea loc în regim online. Numărul de participanți este destul de mare, iar formatul concursului este de tip Conquest Bo3 și Bo5."
+                    descriere="Competiția de Hearthstone din cadrul ediției curente va avea loc în regim online. Numărul de participanți este destul de mare, iar formatul concursului este de tip Conquest Bo3 și Bo5. Tipul meciurilor: Standard."
                     data="Vineri, 6 Noiembrie"
                     poza={hearthstone}
                     deadline="Miercuri, 4 Noiembrie"
+                    regulament="https://drive.google.com/file/d/1xfZUW7-XZhMM2XXozFw-9PG6xGJrjVKL/view?usp=sharing"
                     formular="http://www.123formbuilder.com/form-5679895/form"/>
                     <Eveniment
                     titlu="League of Legends"
@@ -268,6 +280,7 @@ const Evenimente = () => {
                     data="Sâmbătă, 7 Noiembrie"
                     poza={lol}
                     deadline="Joi, 5 Noiembrie"
+                    regulament="https://drive.google.com/file/d/1WJlSE7rwBVBXjCfrF-ilBKfE5VCd1UEu/view?usp=sharing"
                     formular="http://www.123formbuilder.com/form-5678372/itfest-2020-league-of-legends"/>
                     <Eveniment
                     titlu="Board Games"
@@ -282,6 +295,7 @@ const Evenimente = () => {
                     data="Duminică, 8 Noiembrie"
                     poza={csgo}
                     deadline="Vineri, 6 Noiembrie"
+                    regulament="https://drive.google.com/file/d/1jNClUWl7hnDXfUVr3qM459KyQZgEeB-S/view?usp=sharing"
                     formular="http://www.123formbuilder.com/form-5678365/form"/>
                 </Grid>
 
