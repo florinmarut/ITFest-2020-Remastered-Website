@@ -62,7 +62,7 @@ const Eveniment = ({poza,titlu,descriere,data,ora="",invitat,deadline,regulament
                         gutterBottom
                         style={{display: "inline",fontWeight:"100"}}
                         >
-                            Deadline inscriere: {deadline}
+                            Deadline înscriere: {deadline}
                         </Typography>
                     </>)}
                 </div>
@@ -96,7 +96,7 @@ const Eveniment = ({poza,titlu,descriere,data,ora="",invitat,deadline,regulament
                 style={{bottom: 0}}>
                     <Button color="primary" 
                     style={{marginTop:15}}
-                    variant="contained">inscrie-te</Button>
+                    variant="contained">înscrie-te</Button>
                 </a>
                 </div>
             </Grid>

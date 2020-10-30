@@ -128,7 +128,7 @@ const Evenimente = () => {
                     invitat="cei de la DrinkIT"
                     formular="http://www.123formbuilder.com/form-5687582/form"/>
                 <Eveniment
-                    titlu="Webinar despre Insites Consulting"
+                    titlu="Roadmap for your tech trip"
                     descriere="Insites Consulting este o agenție de marketing internațională care vine în ajutorul brandurilor pentru a le promova la nivel local. Echipa agenției este formată din marketeri pasionați, cercetători inovativi și entuziaști în ale marketingului. Pentru a-și îndeplini misiunea, ei folosesc cele mai recente tehnologii din domeniul IT și reușesc să-și facă treaba pe măsură."
                     data="Luni, 9 Noiembrie"
                     poza={in_sites_consulting}
@@ -268,11 +268,11 @@ const Evenimente = () => {
                     formular="http://www.123formbuilder.com/form-5687524/itfest-2020-rocket-league"/>
                     <Eveniment
                     titlu="Hearthstone"
-                    descriere="Competiția de Hearthstone din cadrul ediției curente va avea loc în regim online. Numărul de participanți este destul de mare, iar formatul concursului este de tip Conquest Bo3 și Bo5. Tipul meciurilor: Standard."
+                    descriere="Competiția de Hearthstone din cadrul ediției curente va avea loc în regim online. Numărul de participanți este destul de mare, iar formatul concursului este de tip Conquest Bo3. Tipul meciurilor: Standard."
                     data="Vineri, 6 Noiembrie"
                     poza={hearthstone}
                     deadline="Miercuri, 4 Noiembrie"
-                    regulament="https://drive.google.com/file/d/1xfZUW7-XZhMM2XXozFw-9PG6xGJrjVKL/view?usp=sharing"
+                    regulament="https://drive.google.com/file/d/1ZV1Ae3RjboNJJ_c0i4rZ_wzdWVNwwq-P/view?usp=sharing"
                     formular="http://www.123formbuilder.com/form-5679895/form"/>
                     <Eveniment
                     titlu="League of Legends"
