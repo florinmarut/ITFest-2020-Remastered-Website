@@ -164,6 +164,19 @@ theme = responsiveFontSizes(theme);
           </Typography>
         </Grid>
 
+        <Grid
+        container
+        spacing={12}
+        direction="row"
+        justify="center"
+        alignItems="flex-start"
+        alignContent="center">
+          <Grid item xs={12} md={12} className="parteneri" style={{marginBottom: "40px"}}>
+              <a href="http://www.cjtimis.ro/" target="_blank">
+                <img src="https://itfest.osut.ro/media/Parteneri/Black_CJT.png" style={{height:"90px",margin:"auto",display:"block"}} alt="CJTimiș" />
+              </a>
+          </Grid>
+        </Grid>
 
         <Grid
         container
@@ -172,19 +185,24 @@ theme = responsiveFontSizes(theme);
         justify="center"
         alignItems="flex-start"
         alignContent="center">
-          <Grid item xs={12} md={4} className="parteneri" style={{marginBottom: "40px"}}>
-              <a href="http://www.cjtimis.ro/" target="_blank">
-                <img src="https://itfest.osut.ro/media/Parteneri/Black_CJT.png" style={{height:"80px",margin:"auto",display:"block"}} alt="CJTimiș" />
-              </a>
-          </Grid>
-          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+          <Grid item xs={6} md={3} style={{marginBottom: "40px"}}>
               <a href="https://www.uvt.ro/ro/" target="_blank">
               <img src="https://itfest.osut.ro/media/Parteneri/Black_uvt.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
               </a>
           </Grid>
-          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
-              <a href="https://www.anosr.ro/" target="_blank">
-              <img src="https://itfest.osut.ro/media/Parteneri/Black_ANOSR.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+          <Grid item xs={6} md={3} style={{marginBottom: "40px"}}>
+              <a href="https://fitt.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/fitt-logo.png" style={{height:"80px",margin:"auto",display:"block"}} alt="fitt" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={3} style={{marginBottom: "40px"}}>
+              <a href="https://www.unlocktm.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/unlock-logo.png" style={{height:"80px",margin:"auto",display:"block"}} alt="unlock games" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={3} style={{marginBottom: "40px",marginTop:"35px"}}>
+              <a href="https://www.books-express.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/books-express-logo.png" style={{height:"40px",margin:"auto",display:"block"}} alt="books express" />
               </a>
           </Grid>
         </Grid>
@@ -260,11 +278,47 @@ theme = responsiveFontSizes(theme);
               <img src="https://itfest.osut.ro/media/Parteneri/ramonastase-logo.jpg" style={{height:"90px",margin:"auto",display:"block"}} alt="Ramon Nastase" />
             </a>
           </Grid>
+
+          <Grid item xs={12}>
+            <Typography
+                color="textPrimary"
+                variant="h3"
+                component="h1"
+                id="parteneri"
+                style={{
+                marginTop: 15,
+                marginBottom:30,
+                paddingTop: 60,
+                textAlign:"center"
+            }}>
+                Parteneri media
+            </Typography>
+          </Grid>
         </Grid>
 
-          <Grid>
-            
+        <Grid
+        container
+        spacing={12}
+        direction="row"
+        justify="center"
+        alignItems="flex-start"
+        alignContent="center">
+          <Grid item xs={12} md={4} className="parteneri" style={{marginBottom: "40px"}}>
+              <a href="https://ligaac.ro/" target="_blank">
+                <img src="https://itfest.osut.ro/media/Parteneri/liga-logo.png" style={{height:"80px",margin:"auto",display:"block"}} alt="liga ac" />
+              </a>
           </Grid>
+          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+              <a href="https://consiliulelevilor.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/logo-cne.png" style={{height:"80px",margin:"auto",display:"block"}} alt="consiliulelevilor" />
+              </a>
+          </Grid>
+          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+              <a href="https://www.anosr.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/Black_ANOSR.png" style={{height:"80px",margin:"auto",display:"block"}} alt="anosr" />
+              </a>
+          </Grid>
+        </Grid>
 
           </Container>
           <Footer />

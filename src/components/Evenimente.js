@@ -27,7 +27,10 @@ const board_games = "https://itfest.osut.ro/media/events/boardsgames_small.png";
 const csgo = "https://itfest.osut.ro/media/events/CSGO_small.png";
 const savnet = "https://itfest.osut.ro/media/events/savnet-eveniment.jpg";
 
-
+const premii_hs = "https://itfest.osut.ro/media/premii/premii-hs.png";
+const premii_lol = "https://itfest.osut.ro/media/premii/premii-lol.png";
+const premii_csgo = "https://itfest.osut.ro/media/premii/premii-csgo.png";
+const premii_rocket = "https://itfest.osut.ro/media/premii/premii-rocket.png";
 
 const Evenimente = () => {
     return (
@@ -106,7 +109,7 @@ const Evenimente = () => {
                     data="Marți, 3 Noiembrie"
                     poza={savnet}
                     ora="19:30"
-                    deadline="Duminică, 1 Noiembrie"
+                    deadline="Luni, 2 Noiembrie"
                     invitat="cei din echipa Savnet"
                     formular="http://www.123formbuilder.com/form-5696053/itfest-2020-workshop-savnet"/>
                 <Eveniment
@@ -133,7 +136,7 @@ const Evenimente = () => {
                     data="Luni, 9 Noiembrie"
                     poza={in_sites_consulting}
                     ora="18:00"
-                    deadline="Sâmbătă, 7 Noiembrie"
+                    deadline="Duminică, 8 Noiembrie"
                     invitat="cei de la Insites Consulting"
                     formular="http://www.123formbuilder.com/form-5687601/form"/>
                 <Eveniment
@@ -155,8 +158,11 @@ const Evenimente = () => {
                     invitat="cei de la Te Fac Programator"
                     formular="http://www.123formbuilder.com/form-5687598/form"/>
                 <Eveniment
-                    titlu="Introducere în Game Development"
-                    descriere="Amber este o agenție internațională bazată pe game development. Invitații - angajați în cadrul Amber - vor povesti despre industria de gaming și despre întregul proces de concepere a unui joc prin etape -  Production, Game Design și Arta. Urmează apoi o discuție amplă despre oportunitățile așteptate în domeniul ingineriei IT și zona de QA (Quality Assurance). Un alt aspect interesant pe care îl vor aborda se referă la cum te poți alătura industriei de gaming prin departamentul de Testare."
+                    titlu="The unlimited world of gaming - are you in?"
+                    descriere="Ești în căutarea unei cariere în care să progresezi și să te distrezi în același timp? Industria de gaming
+                    îți oferă o mulțime oportunități!
+                    Colegii noștri sunt nerăbdători să îți povestească în detaliu despre ce înseamnă să lucrezi în gaming și
+                    diversitatea joburilor din care poți alege."
                     data="Miercuri, 11 Noiembrie"
                     poza={amber}
                     ora="18:00"
@@ -209,21 +215,24 @@ const Evenimente = () => {
                     descriere="Hackathonul organizat de noi este un concurs de programare cu o durată de 12 de ore pe o temă stabilită de echipa ITFest Timișoara. Participanții formează echipe și concurează, urmând a fi premiat cel mai inovativ produs și creatorii ei."
                     data="Sâmbătă, 14 Noiembrie"
                     poza={hackathon}
-                    deadline="Joi, 12 Noiembrie"
+                    deadline="Vineri, 13 Noiembrie"
+                    ora="10:00"
                     formular="http://www.123formbuilder.com/form-5678357/form"/>
                 <Eveniment
                     titlu="Concurs de algoritmică"
                     descriere="Acest concurs este o competiție desemnată studenților, dar și elevilor din liceu, ce își propune să testeze și să recompenseze agilitatea și inventivitatea de a aplica diferiți algoritmi în probleme de actualitate."
                     data="Vineri, 13 Noiembrie"
                     poza={algoritmica}
-                    deadline="Miercuri, 11 Noiembrie"
+                    deadline="Joi, 12 Noiembrie"
+                    ora="17:00"
                     formular="http://www.123formbuilder.com/form-5678360/form"/>
                 <Eveniment
                     titlu="Capture the flag"
                     descriere="Acest concurs constă în exploatarea unui sistem informatic vulnerabil (program, website, rețea) în scopul obținerii unui „flag” (cod/fișier). Concursul va avea echipe de maxim 3 membri."
                     data="Duminică, 15 Noiembrie"
                     poza={ctf}
-                    deadline="Vineri, 13 Noiembrie"
+                    deadline="Sâmbătă, 14 Noiembrie"
+                    ora="17:00"
                     formular="http://www.123formbuilder.com/form-5688080/form"/>
 
             </Grid>
@@ -263,30 +272,37 @@ const Evenimente = () => {
                     descriere="Competiția de Rocket League se va desfăşura în totalitate online, prin intermediul platformelor Epic Games sau Steam. Echipa va fi alcătuită din 3 membri, o rezervă (opţional) și un antrenor (opțional), dintre care unul va fi ales căpitan de echipă."
                     data="Vineri, 6 Noiembrie"
                     poza={rocket_league}
-                    deadline="Miercuri, 4 Noiembrie"
-                    regulament="https://drive.google.com/file/d/1TWpf05uIb5dhxsNxE0HyBGLipv2TyOB6/view?usp=sharing"
+                    ora="17:00"
+                    deadline="Joi, 5 Noiembrie"
+                    regulament="https://itfest.osut.ro/media/regulamente/Regulament Rocket League.pdf"
+                    premii={premii_rocket}
                     formular="http://www.123formbuilder.com/form-5687524/itfest-2020-rocket-league"/>
                     <Eveniment
                     titlu="Hearthstone"
                     descriere="Competiția de Hearthstone din cadrul ediției curente va avea loc în regim online. Numărul de participanți este destul de mare, iar formatul concursului este de tip Conquest Bo3. Tipul meciurilor: Standard."
                     data="Vineri, 6 Noiembrie"
                     poza={hearthstone}
-                    deadline="Miercuri, 4 Noiembrie"
-                    regulament="https://drive.google.com/file/d/1ZV1Ae3RjboNJJ_c0i4rZ_wzdWVNwwq-P/view?usp=sharing"
+                    ora="17:00"
+                    deadline="Joi, 5 Noiembrie"
+                    regulament="https://itfest.osut.ro/media/regulamente/Regulament HS.pdf"
+                    premii={premii_hs}
                     formular="http://www.123formbuilder.com/form-5679895/form"/>
                     <Eveniment
                     titlu="League of Legends"
                     descriere="Competiția de League of Legends se va desfăşura prin intermediul platformei Faceit în regim online. Echipe de câte cinci jucători și două rezerve (opțional) ce vor concura pentru câteva premii fascinante oferite de echipa ITFest Timișoara!"
                     data="Sâmbătă, 7 Noiembrie"
                     poza={lol}
-                    deadline="Joi, 5 Noiembrie"
-                    regulament="https://drive.google.com/file/d/1WJlSE7rwBVBXjCfrF-ilBKfE5VCd1UEu/view?usp=sharing"
+                    ora="12:00"
+                    deadline="Vineri, 6 Noiembrie"
+                    regulament="https://itfest.osut.ro/media/regulamente/Regulament LoL.pdf"
+                    premii={premii_lol}
                     formular="http://www.123formbuilder.com/form-5678372/itfest-2020-league-of-legends"/>
                     <Eveniment
                     titlu="Board Games"
                     descriere="O serie de jocuri de societate care îți oferă oportunitatea de a cunoaște oameni noi și de a te relaxa, distra în regim online. Printre jocurile incluse se enumeră: Among Us, Uno, Mafia Online și altele."
                     data="Sâmbătă, 7 Noiembrie"
                     poza={board_games}
+                    ora="16:00"
                     deadline="Joi, 5 Noiembrie"
                     formular="http://www.123formbuilder.com/form-5687186/itfest-2020-board-games"/>
                     <Eveniment
@@ -294,8 +310,10 @@ const Evenimente = () => {
                     descriere="Competiția de CS:GO din cadrul proiectului ITFest 2020 se organizează în regim online prin intermediul platformei Faceit. Echipa va fi alcătuită din 5 membri, 2 rezerve (opţional) și un antrenor (opțional), dintre care unul va fi ales căpitan de echipă."
                     data="Duminică, 8 Noiembrie"
                     poza={csgo}
-                    deadline="Vineri, 6 Noiembrie"
-                    regulament="https://drive.google.com/file/d/1jNClUWl7hnDXfUVr3qM459KyQZgEeB-S/view?usp=sharing"
+                    ora="12:00"
+                    deadline="Sâmbătă, 7 Noiembrie"
+                    regulament="https://itfest.osut.ro/media/regulamente/Regulament CS GO.pdf"
+                    premii={premii_csgo}
                     formular="http://www.123formbuilder.com/form-5678365/form"/>
                 </Grid>
 
@@ -334,7 +352,7 @@ const Evenimente = () => {
                     descriere="Convenția iCONical este printre cele mai recente secțiuni ale proiectului. Evenimentul de tip Comic Con are ca atracție principală un concurs de cosplay, ce adună pasionați de personaje din cărți, seriale, filme, jocuri sau alte creații ficționale. "
                     data="Duminică, 15 Noiembrie"
                     poza={iconical}
-                    deadline="Vineri, 13 Noiembrie"
+                    deadline="Sâmbătă, 14 Noiembrie"
                     formular="http://www.123formbuilder.com/form-5678380/form"/>
 
                 </Grid>
