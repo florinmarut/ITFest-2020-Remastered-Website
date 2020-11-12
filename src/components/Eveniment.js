@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/grid';
 import {Typography} from "@material-ui/core";
 import Button from '@material-ui/core/Button';
-const Eveniment = ({poza,titlu,descriere,data,ora="",invitat,deadline,regulament,premii,formular}) => {
+const Eveniment = ({poza,titlu,descriere,data,ora="",invitat,premii,deadline,locul1,locul2,locul3,regulament,formular}) => {
     return (
         
             <Grid item xs={12} md={6} lg={4}>
@@ -76,6 +76,49 @@ const Eveniment = ({poza,titlu,descriere,data,ora="",invitat,deadline,regulament
                     {descriere}
                 </Typography>
                         <b></b>
+
+                <div className="castigatori">
+                {locul1 && (<>
+                <Typography
+                    color="textSecondary"
+                    variant="body1"
+                    component="h3"
+                    gutterbottom
+                    style={{marginTop:"10px", bottom: 10, color: "#037a96"}}>
+                    Câștigătorii:
+                    </Typography>
+                        <b></b>
+
+                    <Typography
+                        color="textPrimary"
+                        variant="body2"
+                        component="h3"
+                        style={{display: "inline",fontWeight:"100", color: "#037a96"}}
+                        >
+                            Locul 1: {locul1}
+                    </Typography>
+                    <br></br>
+                    <Typography
+                        color="textPrimary"
+                        variant="body2"
+                        component="h3"
+                        style={{display: "inline",fontWeight:"100", color: "#037a96"}}
+                        >
+                            Locul 2: {locul2}
+                    </Typography>
+                    <br></br>
+                    <Typography
+                        color="textPrimary"
+                        variant="body2"
+                        component="h3"
+                        style={{display: "inline",fontWeight:"100", color: "#037a96"}}
+                        >
+                            Locul 3: {locul3}
+                    </Typography>
+                </>)}
+                </div>
+
+
                 <div className="reguli">
                     {regulament && (<>
                         <a href={regulament} target="_blank"
